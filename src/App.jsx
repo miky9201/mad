@@ -13,7 +13,6 @@ function App() {
   return (
     <div className="App">
       <Section></Section>
-
       <ScreenIntro displayed={displayed}></ScreenIntro>
     </div>
   );
