@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import "./App.css";
 import ScreenIntro from "./components/screenIntro/ScreenIntro";
+import Socials from "./components/socials/Socials";
 import logo from "./assets/images/logo.png";
 import { IconContext } from "react-icons";
-import { CiInstagram } from "react-icons/ci";
-import { CiMail } from "react-icons/ci";
-import { CiLinkedin } from "react-icons/ci";
 import { FiMenu } from "react-icons/fi";
 
 function App() {
@@ -20,23 +18,7 @@ function App() {
       <section id="agence">
         <aside className="aside">
           <img src={logo} alt="logo-mad" />
-          <div>
-            <IconContext.Provider value={{ color: "black", size: "90%" }}>
-              <a
-                href="https://www.instagram.com/mad_design_paris/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <CiInstagram />
-              </a>
-              <a href="sandra@mad-design.fr" target="_blank" rel="noreferrer">
-                <CiMail />
-              </a>
-              <a href="https;//www.google.fr" target="_blank" rel="noreferrer">
-                <CiLinkedin />
-              </a>
-            </IconContext.Provider>
-          </div>
+          <Socials></Socials>
         </aside>
         <nav className="nav">
           <IconContext.Provider value={{ color: "black", size: "80%" }}>
