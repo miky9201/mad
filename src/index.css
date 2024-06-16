@@ -44,7 +44,7 @@ code {
   position: fixed;
   top: 25%;
   left: 0;
-  /* background-color: rgba(255, 136, 0, 0.514); */
+  background-color: rgba(255, 136, 0, 0.514);
   width: 30%;
   height: 75%;
   display: flex;
