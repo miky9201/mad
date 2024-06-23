@@ -7,7 +7,7 @@ import { CiLinkedin } from "react-icons/ci";
 
 function Socials() {
   return (
-    <div>
+    <div id="social-media">
       <IconContext.Provider value={{ color: "black", size: "90%" }}>
         <a
           href="https://www.instagram.com/mad_design_paris/"

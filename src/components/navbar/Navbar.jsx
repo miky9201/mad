@@ -23,12 +23,24 @@ function Navbar() {
         </div>
         <div className="inner-nav">
           <div className="nav-items">
-            <h1>AGENCE |</h1>
-            <h1>PROJETS |</h1>
-            <h1>NOS MISSIONS |</h1>
-            <h1>ESPRIT |</h1>
-            <h1>CONTACT |</h1>
-            <h1>NOUS REJOINDRE</h1>
+            <a href="https://google.fr" target="_blank">
+              <h1>AGENCE |</h1>
+            </a>
+            <a href="https://google.fr" target="_blank">
+              <h1>PROJETS |</h1>
+            </a>
+            <a href="https://google.fr" target="_blank">
+              <h1>NOS MISSIONS |</h1>
+            </a>
+            <a href="https://google.fr" target="_blank">
+              <h1>ESPRIT |</h1>
+            </a>
+            <a href="https://google.fr" target="_blank">
+              <h1>CONTACT |</h1>{" "}
+            </a>
+            <a href="https://google.fr" target="_blank">
+              <h1>NOUS REJOINDRE</h1>{" "}
+            </a>
           </div>
         </div>
 

@@ -1,0 +1,50 @@
+#section > p {
+  font-family: "Inconsolata", monospace;
+  font-weight: 500;
+  font-size: 0.7rem;
+  line-height: 1.3em;
+  width: 40%;
+  text-align: left;
+  margin: 2% 0%;
+  list-style-position: inside; /* Les puces sont à l'intérieur des éléments <li> */
+  padding-left: 0;
+}
+
+#section > h2 {
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+  font-size: 1.2rem;
+  width: 20%;
+  text-align: left;
+  margin: 5% 0%;
+}
+
+#section > p > li {
+  text-indent: -1.2em; /* Décalage du texte vers la gauche */
+  padding-left: 1em;
+}
+
+#nav-mission {
+  width: 35%;
+  height: 40%;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 20%;
+}
+
+#nav-mission a {
+  font-family: "Inconsolata", monospace;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-align: left;
+  margin: 5% 0%;
+  cursor: pointer;
+}
+
+.focus {
+  font-weight: 900 !important;
+  outline: none;
+}

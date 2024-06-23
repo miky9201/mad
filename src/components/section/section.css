@@ -1,4 +1,4 @@
-#agence {
+#section {
   position: absolute;
   /* background-color: rgb(0, 255, 47); */
   width: 70%;
@@ -7,16 +7,15 @@
   min-height: 75%;
 }
 
-#agence > h1 {
+#section > h1 {
   font-family: "Inconsolata", monospace;
   font-weight: 700;
   font-size: 3rem;
-  width: 40%;
   text-align: justify;
   margin: 5% 0%;
 }
 
-#agence > p {
+/* #section > p {
   font-family: "Inconsolata", monospace;
   font-weight: 500;
   font-size: 0.7rem;
@@ -24,4 +23,4 @@
   width: 40%;
   text-align: justify;
   margin: 2% 0%;
-}
+} */
