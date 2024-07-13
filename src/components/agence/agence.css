@@ -1,9 +1,20 @@
-#section > p {
-  font-family: "Inconsolata", monospace;
-  font-weight: 500;
+#section > .agence-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+}
+
+#section > .agence-content > p {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
   font-size: 0.7rem;
   line-height: 1.3em;
-  width: 40%;
   text-align: justify;
-  margin: 2% 0%;
+}
+
+#section > .agence-content > img {
+  width: 50%;
+  margin: 0% 10% 0% 10%;
 }

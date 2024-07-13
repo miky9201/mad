@@ -8,7 +8,7 @@ function Aside({ children }) {
     <aside className="aside">
       <img src={logo} alt="logo-mad" />
       {children}
-      <Socials></Socials>
+      <Socials colorType="black"></Socials>
     </aside>
   );
 }

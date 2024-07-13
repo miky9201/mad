@@ -5,10 +5,10 @@ import { CiInstagram } from "react-icons/ci";
 import { CiMail } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
 
-function Socials() {
+function Socials({ colorType }) {
   return (
-    <div id="social-media">
-      <IconContext.Provider value={{ color: "black", size: "90%" }}>
+    <div className="social-media">
+      <IconContext.Provider value={{ color: colorType, size: "90%" }}>
         <a
           href="https://www.instagram.com/mad_design_paris/"
           target="_blank"

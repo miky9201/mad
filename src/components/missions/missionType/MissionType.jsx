@@ -1,10 +1,10 @@
 import React from "react";
 
-function MissionType({ navChoice, missionContent }) {
+function MissionType({ missionContent }) {
   return (
     <>
-      {missionContent[navChoice].title}
-      {missionContent[navChoice].content}
+      {missionContent.title}
+      {missionContent.content}
     </>
   );
 }

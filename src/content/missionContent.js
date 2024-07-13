@@ -1,13 +1,22 @@
+import logoC from "../assets/images/logo-c.png";
+import logoE from "../assets/images/logo-e.png";
+import logoO from "../assets/images/logo-o.png";
+import logoA from "../assets/images/logo-a.png";
+
 const missionContent = [
   {
     name: "moec",
-    navTitle: "MOEC CONCEPTION |",
     navTitle: (
       <p>
         MOEC <br /> CONCEPTION |
       </p>
     ),
-    title: <h2>MAITRE D’OEUVRE CONCEPTEUR |</h2>,
+    title: ( 
+      <div className="title-content">
+        <img src={logoC} alt="moec-conception" />
+        <h2>MAITRE D’OEUVRE CONCEPTEUR |</h2>
+      </div>
+    ),
     content: (
       <p>
         L’équipe MAD Design entreprend : <br /> <br />
@@ -30,7 +39,12 @@ const missionContent = [
         MOEX <br /> EXECUTION |
       </p>
     ),
-    title: <h2>MAITRES D’OEUVRE EXECUTION |</h2>,
+    title: ( 
+      <div className="title-content">
+        <img src={logoE} alt="moec-execution" />
+        <h2>MAITRES D’OEUVRE EXECUTION |</h2>
+      </div>
+    ),
     content: (
       <p>
         Le maître d'œuvre d'exécution chez MAD Design joue un rôle essentiel
@@ -50,7 +64,12 @@ const missionContent = [
   {
     name: "opc",
     navTitle: "OPC |",
-    title: <h2>ORGANISATION PILOTAGE ET COORDINATION |</h2>,
+    title: ( 
+      <div className="title-content">
+        <img src={logoO} alt="moec-organisation" />
+        <h2>ORGANISATION PILOTAGE ET COORDINATION |</h2>
+      </div>
+    ),
     content: (
       <p>
         Chez MAD Design, notre OPC joue un rôle crucial dans la gestion de nos
@@ -78,7 +97,12 @@ const missionContent = [
   {
     name: "amo",
     navTitle: "AMO |",
-    title: <h2>ASSISTANT MAITRE OUVRAGE |</h2>,
+    title: ( 
+      <div className="title-content">
+        <img src={logoA} alt="moec-assistance" />
+        <h2>ASSISTANT MAITRE OUVRAGE |</h2>
+      </div>
+    ),
     content: (
       <p>
         Pour l'Assistant Maître d'Ouvrage (AMO) chez MAD Design, son rôle est

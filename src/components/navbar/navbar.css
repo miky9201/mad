@@ -37,6 +37,17 @@
   width: 30px;
 }
 
+.navbar > .social-media {
+  position: absolute;
+  height: 5%;
+  min-width: 5%;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 0% 5% 5% auto;
+}
+
 .inner-logo {
   /* background-color: aquamarine; */
   width: 30%;
@@ -72,12 +83,12 @@
 
 .nav-items a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 .nav-items h1 {
   /* background-color: red; */
-  font-family: "Inconsolata", monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 700;
   font-size: 3.5vw;
 
