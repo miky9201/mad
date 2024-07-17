@@ -17,8 +17,8 @@ function App() {
     <div className="App">
       <Section>
         {/* <Agence></Agence> */}
-        <Missions></Missions>
-        {/* <Esprit></Esprit> */}
+        {/* <Missions></Missions> */}
+        <Esprit></Esprit>
       </Section>
       <ScreenIntro displayed={displayed}></ScreenIntro>
     </div>

@@ -33,9 +33,22 @@ function Esprit() {
     <>
       <Aside></Aside>
       <h1>ESPRIT |</h1>
-      {espritContent.map((image, index) => {
-        return <img key={index} width="20%" src={image.url} alt={image.name} />;
-      })}
+      <div className="esprit-content">
+        {espritContent.map((image, index) => {
+          return (
+            <div
+              className="esprit-content"
+              key={index}
+              style={{
+                backgroundImage: `url(${image.url})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+              }}
+            ></div>
+          );
+        })}
+      </div>
     </>
   );
 }

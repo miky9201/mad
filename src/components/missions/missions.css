@@ -23,6 +23,7 @@
 #section > .title-content > img {
   width: 10%;
   max-width: 70px;
+  margin: 20px;
 }
 
 #section > .title-content > h2 {
@@ -33,7 +34,7 @@
   text-align: left;
 }
 
-#section > p  {
+#section > p {
   margin-bottom: 10%;
 }
 
