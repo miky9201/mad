@@ -6,6 +6,7 @@ import { IconContext } from "react-icons";
 import { FiMenu } from "react-icons/fi";
 import { RxCross1 } from "react-icons/rx";
 import { BsChevronUp } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [toggle, setToggle] = useState(false);
@@ -23,25 +24,25 @@ function Navbar() {
           <img src={logoWhite} alt="logo white mad" />
         </div>
         <div className="inner-nav">
-          <div className="nav-items">
-            <a href="#">
+          <div className="nav-items" onClick={handleNavElements}>
+            <Link to="/">
               <h1>AGENCE |</h1>
-            </a>
-            <a href="#">
+            </Link>
+            {/* <Link to="/">
               <h1>PROJETS |</h1>
-            </a>
-            <a href="#">
+            </Link> */}
+            <Link to="/missions">
               <h1>NOS MISSIONS |</h1>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/esprit">
               <h1>ESPRIT |</h1>
-            </a>
-            <a href="#">
+            </Link>
+            {/* <Link to="/">
               <h1>CONTACT |</h1>{" "}
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/">
               <h1>NOUS REJOINDRE</h1>{" "}
-            </a>
+            </Link> */}
           </div>
         </div>
 

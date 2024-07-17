@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import ScreenIntro from "./components/screenIntro/ScreenIntro";
 import Section from "./components/section/Section.jsx";
-import Agence from "./components/agence/Agence.jsx";
-import Missions from "./components/missions/Missions.jsx";
-import Esprit from "./components/esprit/Esprit.jsx";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   const [displayed, setDisplayed] = useState(true);
@@ -14,14 +12,12 @@ function App() {
   }, 2000);
 
   return (
-    <div className="App">
-      <Section>
-        {/* <Agence></Agence> */}
-        {/* <Missions></Missions> */}
-        <Esprit></Esprit>
-      </Section>
-      <ScreenIntro displayed={displayed}></ScreenIntro>
-    </div>
+    <Router>
+      <div className="App">
+        <Section />
+        <ScreenIntro displayed={displayed}></ScreenIntro>
+      </div>
+    </Router>
   );
 }
 
