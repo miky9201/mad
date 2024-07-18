@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./fixedDiv.css";
 
-const FixedDiv = ({ top, left, speed, toTop }) => {
+const FixedDiv = ({ height, top, left, speed, toTop }) => {
   const [topPosition, setTopPosition] = useState(top);
 
   useEffect(() => {
@@ -26,7 +26,11 @@ const FixedDiv = ({ top, left, speed, toTop }) => {
   return (
     <div
       className="fixed-div"
-      style={{ top: `${topPosition}px`, left: `${left}%` }}
+      style={{
+        height: `${height}px`,
+        top: `${topPosition}px`,
+        left: `${left}%`,
+      }}
     ></div>
   );
 };

@@ -16,10 +16,10 @@ function Socials({ colorType }) {
         >
           <CiInstagram />
         </a>
-        <a href="sandra@mad-design.fr" target="_blank" rel="noreferrer">
+        <a href="mailto:sandra@mad-design.fr" target="_blank" rel="noreferrer">
           <CiMail />
         </a>
-        <a href="https;//www.google.fr" target="_blank" rel="noreferrer">
+        <a href="https://www.google.fr" target="_blank" rel="noreferrer">
           <CiLinkedin />
         </a>
       </IconContext.Provider>

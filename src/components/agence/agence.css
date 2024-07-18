@@ -4,6 +4,7 @@
   justify-content: space-around;
   align-items: flex-start;
   width: 100%;
+  /* background-color: red; */
 }
 
 #section > div > .agence-content > p {
@@ -17,4 +18,17 @@
 #section > div > .agence-content > img {
   width: 50%;
   margin: 0% 10% 0% 10%;
+}
+
+@media (max-width: 1000px) {
+  #section > div > .agence-content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #section > div > .agence-content > img {
+    margin-top: 15%;
+    width: 100%;
+  }
 }

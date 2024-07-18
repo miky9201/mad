@@ -3,14 +3,14 @@
   /* background-color: rgb(0, 255, 47); */
   width: 70%;
   right: 0;
-  top: 25%;
+  top: 15vw;
   min-height: 75%;
 }
 
 #section > div > h1 {
   font-family: "Roboto Mono", monospace;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: calc(8px + 3vw);
   text-align: justify;
   margin: 5% 0%;
 }
@@ -33,4 +33,11 @@
   height: 200%;
   background-color: #e84d1a;
   transform-origin: top;
+}
+
+@media (max-width: 1000px) {
+  #section > div {
+    width: 60%;
+    padding-right: 5%;
+  }
 }

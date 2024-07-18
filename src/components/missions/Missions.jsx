@@ -38,8 +38,8 @@ function Missions() {
           })}
         </div> */}
       </Aside>
-      <FixedDiv left={28} top={200} speed={0.2} />
-      <FixedDiv left={55} top={600} speed={0.35} toTop />
+      <FixedDiv height={100} left={28} top={200} speed={0.2} />
+      <FixedDiv height={200} left={55} top={600} speed={0.35} toTop />
       <h1>NOS MISSIONS |</h1>
       {missionContent.map((mission, index) => {
         return <MissionType key={index} missionContent={mission} />;

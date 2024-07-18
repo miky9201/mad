@@ -28,21 +28,21 @@ function Navbar() {
             <Link to="/">
               <h1>AGENCE |</h1>
             </Link>
-            {/* <Link to="/">
+            <Link to="/">
               <h1>PROJETS |</h1>
-            </Link> */}
+            </Link>
             <Link to="/missions">
               <h1>NOS MISSIONS |</h1>
             </Link>
             <Link to="/esprit">
               <h1>ESPRIT |</h1>
             </Link>
-            {/* <Link to="/">
+            <Link to="/">
               <h1>CONTACT |</h1>{" "}
             </Link>
             <Link to="/">
               <h1>NOUS REJOINDRE</h1>{" "}
-            </Link> */}
+            </Link>
           </div>
         </div>
 
