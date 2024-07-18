@@ -3,12 +3,11 @@ import "./missions.css";
 import missionContent from "../../content/missionContent";
 import Aside from "../aside/Aside";
 import MissionType from "./missionType/MissionType";
+import FixedDiv from "../fixedDiv/FixedDiv";
 
 function Missions() {
+  // COMMENTER MAIS A UTILISER POUR PROJET
 
-  // COMMENTER MAIS A UTILISER POUR PROJET 
-
-  
   // const [navChoice, setNavChoice] = useState(0);
 
   // const handleClick = (index) => {
@@ -21,7 +20,7 @@ function Missions() {
   // };
 
   return (
-    <>
+    <div>
       <Aside>
         {/* <div id="nav-mission">
           {missionContent.map((mission, index) => {
@@ -39,14 +38,14 @@ function Missions() {
           })}
         </div> */}
       </Aside>
+      <FixedDiv left={28} top={200} speed={0.2} />
+      <FixedDiv left={55} top={600} speed={0.35} toTop />
       <h1>NOS MISSIONS |</h1>
       {missionContent.map((mission, index) => {
-          return (
-            <MissionType key={index} missionContent={mission} />
-          );
+        return <MissionType key={index} missionContent={mission} />;
       })}
-      
-    </>
+      <div id="orange-stripe"></div>
+    </div>
   );
 }
 

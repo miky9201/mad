@@ -5,7 +5,7 @@ import agenceImg from "../../assets/images/agence-1.jpg";
 
 function Agence() {
   return (
-    <>
+    <div>
       <Aside></Aside>
       <h1>AGENCE |</h1>
       <div className="agence-content">
@@ -29,7 +29,7 @@ function Agence() {
         </p>
         <img src={agenceImg} alt="bureau-agence" />
       </div>
-    </>
+    </div>
   );
 }
 

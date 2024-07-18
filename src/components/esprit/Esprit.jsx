@@ -30,7 +30,7 @@ function Esprit() {
     },
   ];
   return (
-    <>
+    <div>
       <Aside></Aside>
       <h1>ESPRIT |</h1>
       <div className="esprit-content">
@@ -49,7 +49,7 @@ function Esprit() {
           );
         })}
       </div>
-    </>
+    </div>
   );
 }
 

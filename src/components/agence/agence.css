@@ -1,4 +1,4 @@
-#section > .agence-content {
+#section > div > .agence-content {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-#section > .agence-content > p {
+#section > div > .agence-content > p {
   font-family: "Roboto Mono", monospace;
   font-weight: 400;
   font-size: 0.7rem;
@@ -14,7 +14,7 @@
   text-align: justify;
 }
 
-#section > .agence-content > img {
+#section > div > .agence-content > img {
   width: 50%;
   margin: 0% 10% 0% 10%;
 }

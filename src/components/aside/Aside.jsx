@@ -2,11 +2,14 @@ import React from "react";
 import "./aside.css";
 import Socials from "../socials/Socials";
 import logo from "../../assets/images/logo.png";
+import { Link } from "react-router-dom";
 
 function Aside({ children }) {
   return (
     <aside className="aside">
-      <img src={logo} alt="logo-mad" />
+      <Link to="/">
+        <img src={logo} alt="logo-mad" />
+      </Link>
       {children}
       <Socials colorType="black"></Socials>
     </aside>

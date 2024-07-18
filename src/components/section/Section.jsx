@@ -4,13 +4,15 @@ import Navbar from "../navbar/Navbar";
 import Agence from "../agence/Agence.jsx";
 import Missions from "../missions/Missions.jsx";
 import Esprit from "../esprit/Esprit.jsx";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 
-function Section({ children }) {
+function Section() {
+  const location = useLocation();
   return (
     <section id="section">
       <Navbar></Navbar>
-      <Routes>
+
+      <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Agence />} />
         <Route path="/missions" element={<Missions />} />
         <Route path="/esprit" element={<Esprit />} />

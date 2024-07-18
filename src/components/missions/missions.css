@@ -1,4 +1,4 @@
-#section > p {
+#section > div > p {
   font-family: "Roboto Mono", monospace;
   font-weight: 400;
   font-size: 0.7rem;
@@ -10,7 +10,7 @@
   padding-left: 0;
 }
 
-#section > .title-content {
+#section > div > .title-content {
   /* background-color: red; */
   display: flex;
   justify-content: flex-start;
@@ -20,13 +20,13 @@
   margin-left: -110px;
 }
 
-#section > .title-content > img {
+#section > div > .title-content > img {
   width: 10%;
   max-width: 70px;
   margin: 20px;
 }
 
-#section > .title-content > h2 {
+#section > div > .title-content > h2 {
   font-family: "Roboto Mono", monospace;
   font-weight: 700;
   font-size: 1.2rem;
@@ -34,11 +34,11 @@
   text-align: left;
 }
 
-#section > p {
+#section > div > p {
   margin-bottom: 10%;
 }
 
-#section > p > li {
+#section > div > p > li {
   text-indent: -1.2em; /* Décalage du texte vers la gauche */
   padding-left: 1em;
 }
