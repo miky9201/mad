@@ -1,21 +1,31 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import ScreenIntro from "./components/screenIntro/ScreenIntro";
 import Section from "./components/section/Section.jsx";
 import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
-  const [displayed, setDisplayed] = useState(true);
+  const [introDisplayed, setIntroDisplayed] = useState(true);
 
-  setTimeout(() => {
-    setDisplayed(false);
-  }, 2000);
+  // setTimeout(() => {
+  //   setIntroDisplayed(false);
+  // }, 2000);
+
+  useEffect(() => {
+    // Changer l'état après 2 secondes pour masquer ScreenIntro
+    const timer = setTimeout(() => {
+      setIntroDisplayed(false);
+    }, 2000);
+
+    // Nettoyage du timer lors du démontage du composant
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <Router>
       <div className="App">
-        <Section />
-        <ScreenIntro displayed={displayed}></ScreenIntro>
+        <ScreenIntro displayed={introDisplayed} />
+        {!introDisplayed && <Section />}
       </div>
     </Router>
   );

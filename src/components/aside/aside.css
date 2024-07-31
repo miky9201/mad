@@ -14,13 +14,12 @@
 
 .aside img {
   width: 30%;
-  min-width: 65px;
+  min-width: 50px;
   margin: 8% auto;
 }
 
 @media (max-width: 1000px) {
   .aside {
-    height: 50%;
     width: 40%;
   }
 }

@@ -2,15 +2,17 @@ import React, { useState, useEffect } from "react";
 import "./fixedDiv.css";
 
 const FixedDiv = ({ height, top, left, speed, toTop }) => {
-  const [topPosition, setTopPosition] = useState(top);
+  const random = Math.random();
+  const [topPosition, setTopPosition] = useState(random * top);
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY;
+      const scrollPosition = window.scrollY * random;
+
       if (toTop) {
-        setTopPosition(top - scrollPosition * speed); // Ajustez le facteur de multiplication pour changer la vitesse de déplacement
+        setTopPosition(topPosition - scrollPosition * speed); // Ajustez le facteur de multiplication pour changer la vitesse de déplacement
       } else {
-        setTopPosition(top + scrollPosition * speed); // Ajustez le facteur de multiplication pour changer la vitesse de déplacement
+        setTopPosition(topPosition + scrollPosition * speed);
       }
     };
 
@@ -29,7 +31,7 @@ const FixedDiv = ({ height, top, left, speed, toTop }) => {
       style={{
         height: `${height}px`,
         top: `${topPosition}px`,
-        left: `${left}%`,
+        left: `${left}vw`,
       }}
     ></div>
   );

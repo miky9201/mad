@@ -11,7 +11,7 @@ const missionContent = [
         MOEC <br /> CONCEPTION |
       </p>
     ),
-    title: ( 
+    title: (
       <div className="title-content">
         <img src={logoC} alt="moec-conception" />
         <h2>MAITRE D’OEUVRE CONCEPTEUR |</h2>
@@ -39,7 +39,7 @@ const missionContent = [
         MOEX <br /> EXECUTION |
       </p>
     ),
-    title: ( 
+    title: (
       <div className="title-content">
         <img src={logoE} alt="moec-execution" />
         <h2>MAITRES D’OEUVRE EXECUTION |</h2>
@@ -64,7 +64,7 @@ const missionContent = [
   {
     name: "opc",
     navTitle: "OPC |",
-    title: ( 
+    title: (
       <div className="title-content">
         <img src={logoO} alt="moec-organisation" />
         <h2>ORGANISATION PILOTAGE ET COORDINATION |</h2>
@@ -97,7 +97,7 @@ const missionContent = [
   {
     name: "amo",
     navTitle: "AMO |",
-    title: ( 
+    title: (
       <div className="title-content">
         <img src={logoA} alt="moec-assistance" />
         <h2>ASSISTANT MAITRE OUVRAGE |</h2>

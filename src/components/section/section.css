@@ -4,7 +4,7 @@
   width: 70%;
   right: 0;
   top: 15vw;
-  min-height: 75%;
+  /* min-height: 75%; */
 }
 
 #section > div > h1 {
@@ -39,5 +39,22 @@
   #section > div {
     width: 60%;
     padding-right: 5%;
+    /* clip-path: polygon(0 0, 100% 0, 100% 17%, 0 17%); */
+  }
+
+  #section > div > h1 {
+    margin: 13% 0%;
+  }
+}
+
+@media (max-width: 600px) {
+  #section > div {
+    width: 90%;
+    padding-right: 5%;
+  }
+
+  #section > div > h1 {
+    margin-top: 10%;
+    margin-left: 20%;
   }
 }

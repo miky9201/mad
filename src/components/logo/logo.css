@@ -1,0 +1,9 @@
+#logo {
+  position: relative;
+  top: 24vw;
+  left: -33vw;
+  width: 13%;
+  min-width: 50px;
+  max-width: 120px;
+  margin: 8% auto;
+}

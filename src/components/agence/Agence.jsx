@@ -1,12 +1,31 @@
 import React from "react";
 import "./agence.css";
 import Aside from "../aside/Aside";
+import Logo from "../logo/Logo";
 import agenceImg from "../../assets/images/agence-1.jpg";
 
-function Agence() {
+function Agence({ windowWidth }) {
   return (
     <div>
-      <Aside></Aside>
+      {windowWidth > 600 ? (
+        <Aside>
+          {/* <div id="nav-mission">
+            {missionContent.map((mission, index) => (
+              <a
+                href="###"
+                className={index === 0 ? "focus" : null}
+                tabIndex="0"
+                key={index}
+                // onClick={() => handleClick(index)}
+              >
+                {mission.navTitle}
+              </a>
+            ))}
+          </div> */}
+        </Aside>
+      ) : (
+        <Logo />
+      )}
       <h1>AGENCE |</h1>
       <div className="agence-content">
         <p>

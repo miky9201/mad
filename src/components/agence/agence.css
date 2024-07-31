@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
   /* background-color: red; */
 }
@@ -17,6 +17,7 @@
 
 #section > div > .agence-content > img {
   width: 50%;
+  max-width: 500px;
   margin: 0% 10% 0% 10%;
 }
 
@@ -28,7 +29,8 @@
   }
 
   #section > div > .agence-content > img {
-    margin-top: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     width: 100%;
   }
 }

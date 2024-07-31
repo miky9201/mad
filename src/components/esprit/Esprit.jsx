@@ -1,8 +1,9 @@
 import React from "react";
 import "./esprit.css";
 import Aside from "../aside/Aside";
+import Logo from "../logo/Logo";
 
-function Esprit() {
+function Esprit({ windowWidth }) {
   const espritContent = [
     {
       name: "esprit-1",
@@ -31,7 +32,25 @@ function Esprit() {
   ];
   return (
     <div>
-      <Aside></Aside>
+      {windowWidth > 600 ? (
+        <Aside>
+          {/* <div id="nav-mission">
+            {missionContent.map((mission, index) => (
+              <a
+                href="###"
+                className={index === 0 ? "focus" : null}
+                tabIndex="0"
+                key={index}
+                // onClick={() => handleClick(index)}
+              >
+                {mission.navTitle}
+              </a>
+            ))}
+          </div> */}
+        </Aside>
+      ) : (
+        <Logo />
+      )}
       <h1>ESPRIT |</h1>
       <div className="esprit-content">
         {espritContent.map((image, index) => {

@@ -1,3 +1,9 @@
 .App {
   text-align: center;
 }
+
+#logo {
+  width: 30%;
+  min-width: 50px;
+  margin: 8% auto;
+}
