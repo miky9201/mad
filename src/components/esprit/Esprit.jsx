@@ -32,25 +32,7 @@ function Esprit({ windowWidth }) {
   ];
   return (
     <div>
-      {windowWidth > 600 ? (
-        <Aside>
-          {/* <div id="nav-mission">
-            {missionContent.map((mission, index) => (
-              <a
-                href="###"
-                className={index === 0 ? "focus" : null}
-                tabIndex="0"
-                key={index}
-                // onClick={() => handleClick(index)}
-              >
-                {mission.navTitle}
-              </a>
-            ))}
-          </div> */}
-        </Aside>
-      ) : (
-        <Logo />
-      )}
+      {windowWidth > 600 ? <Aside></Aside> : <Logo />}
       <h1>ESPRIT |</h1>
       <div className="esprit-content">
         {espritContent.map((image, index) => {

@@ -51,10 +51,17 @@
   #section > div {
     width: 90%;
     padding-right: 5%;
+    top: 0vw;
   }
 
   #section > div > h1 {
-    margin-top: 10%;
+    margin-top: 0%;
     margin-left: 20%;
+  }
+}
+
+@media (min-width: 1500px) {
+  #section > div {
+    top: 5vw;
   }
 }

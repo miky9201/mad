@@ -43,28 +43,6 @@
   padding-left: 1em;
 }
 
-#nav-mission {
-  width: 35%;
-  height: 40%;
-  /* background-color: blueviolet; */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-bottom: 20%;
-}
-
-#nav-mission a {
-  text-decoration: none;
-  color: black;
-  font-family: "Roboto Mono", monospace;
-  font-weight: 400;
-  font-size: 1.1rem;
-  text-align: left;
-  margin: 5% 0%;
-  cursor: pointer;
-}
-
 .focus {
   font-weight: 700 !important;
   outline: none;

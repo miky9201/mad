@@ -28,7 +28,7 @@ function Navbar() {
             <Link to="/">
               <h1>AGENCE |</h1>
             </Link>
-            <Link to="/">
+            <Link to="/projet">
               <h1>PROJETS |</h1>
             </Link>
             <Link to="/missions">

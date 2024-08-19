@@ -49,7 +49,6 @@ function Missions({ windowWidth }) {
       {missionContent.map((mission, index) => {
         return <MissionType key={index} missionContent={mission} />;
       })}
-      <div id="orange-stripe"></div>
     </div>
   );
 }
