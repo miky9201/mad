@@ -1,27 +1,27 @@
 const projetsNav = [
   {
-    name: "club",
-    navTitle: <p>CLUB |</p>,
+    categoryId: "restaurant",
+    navTitle: "RESTAURANT BAR |",
   },
   {
-    name: "club",
-    navTitle: <p>RESTAURANT BAR |</p>,
+    categoryId: "club",
+    navTitle: "CLUB |",
   },
   {
-    name: "club",
-    navTitle: <p>RETAIL |</p>,
+    categoryId: "retail",
+    navTitle: "RETAIL |",
   },
   {
-    name: "club",
-    navTitle: <p>RESIDENTIEL |</p>,
+    categoryId: "residentiel",
+    navTitle: "RESIDENTIEL |",
   },
   {
-    name: "club",
-    navTitle: <p>EVENEMENTIEL |</p>,
+    categoryId: "evenementiel",
+    navTitle: "EVENEMENTIEL |",
   },
   {
-    name: "club",
-    navTitle: <p>OFFICES |</p>,
+    categoryId: "office",
+    navTitle: "OFFICE |",
   },
 ];
 

@@ -93,7 +93,7 @@
   /* background-color: red; */
   font-family: "Roboto Mono", monospace;
   font-weight: 700;
-  font-size: calc(6px + 3.5vw);
+  font-size: calc(6px + 3.3vw);
   flex: 0 1 auto;
   text-align: left;
   margin: 5px;

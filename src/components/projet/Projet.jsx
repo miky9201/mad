@@ -11,27 +11,31 @@ function Projet({ windowWidth }) {
 
   const handleClick = (index) => {
     setNavChoice(index);
-    let links = document.querySelectorAll("#nav-projet a");
+    let links = document.querySelectorAll("#nav-projet p");
     for (let i = 0; i < links.length; i++) {
       links[i].classList.remove("focus");
     }
     links[index].classList.add("focus");
   };
+
+  const filteredProjetContent = projetContent.filter(
+    (projet) => projet.categoryId === projetsNav[navChoice].categoryId
+  );
+
   return (
     <div>
       {windowWidth > 600 ? (
         <Aside>
           <div id="nav-projet">
             {projetsNav.map((projet, index) => (
-              <a
-                href="###"
+              <p
                 className={index === 0 ? "focus" : null}
                 tabIndex="0"
                 key={index}
                 onClick={() => handleClick(index)}
               >
                 {projet.navTitle}
-              </a>
+              </p>
             ))}
           </div>
         </Aside>
@@ -40,7 +44,7 @@ function Projet({ windowWidth }) {
       )}
       <h1>NOS PROJETS |</h1>
       <div className="projet-content">
-        {projetContent.map((projet, index) => (
+        {filteredProjetContent.map((projet, index) => (
           <ProjetType
             key={index}
             navChoice={navChoice}

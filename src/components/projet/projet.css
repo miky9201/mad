@@ -10,7 +10,7 @@
   margin-bottom: 5%;
 }
 
-#nav-projet a {
+#nav-projet p {
   text-decoration: none;
   color: black;
   font-family: "Roboto Mono", monospace;
@@ -42,15 +42,33 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 94%;
+  margin-bottom: 5%;
 }
 
 .thumb img {
-  object-fit: contain;
+  object-fit: cover;
   width: 100%;
+  aspect-ratio: 1/1;
+  box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.365);
+}
+
+.thumb:hover {
+  scale: 1.03;
 }
 
 .thumb p {
+  margin-top: 1%;
   text-align: left;
   font-family: "Roboto Mono", monospace;
   font-size: 0.9rem;
+}
+
+@media (max-width: 1200px) {
+  .projet-content {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    width: 100%;
+    gap: 1% 4%;
+  }
 }
