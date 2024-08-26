@@ -18,8 +18,9 @@
   .esprit-content {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
-    width: 100%;
+    width: 94%;
     gap: 1% 4%;
+    margin-bottom: 20%;
   }
 
   .esprit-content div {
@@ -29,5 +30,11 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .esprit-content {
+    width: 100%;
   }
 }

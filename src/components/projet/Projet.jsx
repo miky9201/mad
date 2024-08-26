@@ -43,6 +43,20 @@ function Projet({ windowWidth }) {
         <Logo />
       )}
       <h1>NOS PROJETS |</h1>
+      {windowWidth < 600 && (
+        <div id="nav-projet">
+          {projetsNav.map((projet, index) => (
+            <p
+              className={index === 0 ? "focus" : null}
+              tabIndex="0"
+              key={index}
+              onClick={() => handleClick(index)}
+            >
+              {projet.navTitle}
+            </p>
+          ))}
+        </div>
+      )}
       <div className="projet-content">
         {filteredProjetContent.map((projet, index) => (
           <ProjetType
@@ -53,6 +67,7 @@ function Projet({ windowWidth }) {
           />
         ))}
       </div>
+      <div className="address-bottom">3 Passage Perreur | Paris</div>
     </div>
   );
 }

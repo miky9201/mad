@@ -48,10 +48,10 @@
   outline: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1250px) {
   #section > div > .title-content {
     margin-left: -50px;
-    width: 75vw;
+    width: 60vw;
   }
 
   #section > div > .title-content > img {

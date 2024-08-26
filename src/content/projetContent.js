@@ -11,12 +11,18 @@ import clutchImg from "../assets/images/clutch-img-1.jpg";
 import phantomImg from "../assets/images/phantom-img-1.jpg";
 import terminalImg from "../assets/images/terminal-img-1.jpg";
 import haussmannImg from "../assets/images/haussmann-img-1.jpg";
-
-import clubImg from "../assets/images/resto-img.jpg";
-import retailImg from "../assets/images/retail-img.jpg";
-// import logoE from "../assets/images/logo-e.png";
-// import logoO from "../assets/images/logo-o.png";
-// import logoA from "../assets/images/logo-a.png";
+import burburryImg from "../assets/images/burburry-img-1.jpg";
+import zadigImg from "../assets/images/zadig-img-1.jpg";
+import jimmyImg from "../assets/images/jimmy-img-1.jpg";
+import mackageImg from "../assets/images/mackage-img-1.jpg";
+import saintgermainImg from "../assets/images/saint-germain-img-1.jpg";
+import paris9Img from "../assets/images/paris-9-img-1.jpg";
+import raspailImg from "../assets/images/raspail-img-1.jpg";
+import lepicImg from "../assets/images/lepic-1-img.jpg";
+import regisbottaImg from "../assets/images/regis-botta-1-img.png";
+import gareImg from "../assets/images/gare-img-1.jpeg";
+import chellesImg from "../assets/images/chelles-img-1.jpg";
+import vocalcomImg from "../assets/images/vocalcom-img-1.jpg";
 
 const projetContent = [
   {
@@ -112,24 +118,87 @@ const projetContent = [
   },
   {
     categoryId: "retail",
-    name: "retail-1",
-    title: <p>RETAIL 1 |</p>,
+    name: "burburry",
+    title: <p>Burburry |</p>,
     content: <p>Ceci est la description du projet</p>,
-    image: retailImg,
+    image: burburryImg,
   },
   {
     categoryId: "retail",
-    name: "retail-2",
-    title: <p>RETAIL 2 |</p>,
+    name: "zadig-voltaire",
+    title: <p>Zadig & Voltaire |</p>,
     content: <p>Ceci est la description du projet</p>,
-    image: retailImg,
+    image: zadigImg,
   },
   {
     categoryId: "retail",
-    name: "retail-3",
-    title: <p>RETAIL 3 |</p>,
+    name: "jimmy-choo",
+    title: <p>Jimmy Choo |</p>,
     content: <p>Ceci est la description du projet</p>,
-    image: retailImg,
+    image: jimmyImg,
+  },
+  {
+    categoryId: "retail",
+    name: "mackage",
+    title: <p>Mackage |</p>,
+    content: <p>Ceci est la description du projet</p>,
+    image: mackageImg,
+  },
+  {
+    categoryId: "residentiel",
+    name: "saint-germain",
+    title: <p>Bd Saint-Germain |</p>,
+    content: <p>Ceci est la description du projet</p>,
+    image: saintgermainImg,
+  },
+  {
+    categoryId: "residentiel",
+    name: "paris-9",
+    title: <p>Paris 9e |</p>,
+    content: <p>Ceci est la description du projet</p>,
+    image: paris9Img,
+  },
+  {
+    categoryId: "residentiel",
+    name: "raspail",
+    title: <p>Appartement Raspail |</p>,
+    content: <p>Ceci est la description du projet</p>,
+    image: raspailImg,
+  },
+  {
+    categoryId: "residentiel",
+    name: "lepic",
+    title: <p>Appartement Lepic |</p>,
+    content: <p>Ceci est la description du projet</p>,
+    image: lepicImg,
+  },
+  {
+    categoryId: "residentiel",
+    name: "regis-botta",
+    title: <p>Appartement Regis Botta |</p>,
+    content: <p>Ceci est la description du projet</p>,
+    image: regisbottaImg,
+  },
+  {
+    categoryId: "office",
+    name: "gare-vaugirard",
+    title: <p>Gare Vaugirard |</p>,
+    content: <p>Ceci est la description du projet</p>,
+    image: gareImg,
+  },
+  {
+    categoryId: "office",
+    name: "chelles",
+    title: <p>Chelles Cabinet Dentaire |</p>,
+    content: <p>Ceci est la description du projet</p>,
+    image: chellesImg,
+  },
+  {
+    categoryId: "office",
+    name: "vocalcom",
+    title: <p>Vocalcom |</p>,
+    content: <p>Ceci est la description du projet</p>,
+    image: vocalcomImg,
   },
 ];
 

@@ -11,7 +11,7 @@ function Aside({ children }) {
         <img src={logo} alt="logo-mad" />
       </Link>
       {children}
-      <Socials colorType="black"></Socials>
+      <Socials colorType="black" isAside></Socials>
     </aside>
   );
 }

@@ -15,10 +15,10 @@ const projetsNav = [
     categoryId: "residentiel",
     navTitle: "RESIDENTIEL |",
   },
-  {
-    categoryId: "evenementiel",
-    navTitle: "EVENEMENTIEL |",
-  },
+  // {
+  //   categoryId: "evenementiel",
+  //   navTitle: "EVENEMENTIEL |",
+  // },
   {
     categoryId: "office",
     navTitle: "OFFICE |",

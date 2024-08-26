@@ -34,6 +34,7 @@
   grid-template-columns: repeat(3, 1fr);
   justify-content: center; /* Centre la grille */
   width: 94%;
+  margin-bottom: 10%;
 }
 
 .thumb {
@@ -70,5 +71,17 @@
     justify-content: center;
     width: 100%;
     gap: 1% 4%;
+  }
+}
+
+@media (max-width: 600px) {
+  #nav-projet {
+    padding-left: 0vw;
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

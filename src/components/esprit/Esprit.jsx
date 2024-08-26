@@ -50,6 +50,7 @@ function Esprit({ windowWidth }) {
           );
         })}
       </div>
+      <div className="address-bottom">3 Passage Perreur | Paris</div>
     </div>
   );
 }

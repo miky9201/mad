@@ -21,6 +21,15 @@
   margin: 0% 10% 0% 10%;
 }
 
+.address-bottom {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 1.3em;
+  text-align: center;
+  margin: 20% 0 5% 0;
+}
+
 @media (max-width: 1000px) {
   #section > div > .agence-content {
     flex-direction: column;
@@ -32,5 +41,17 @@
     margin-top: 10%;
     margin-bottom: 10%;
     width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  #section > div > .agence-content > img {
+    margin-bottom: 0%;
+  }
+}
+
+@media (min-width: 600px) {
+  .address-bottom {
+    display: none;
   }
 }

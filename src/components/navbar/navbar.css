@@ -39,9 +39,10 @@
   width: 30px;
 }
 
-.navbar > .social-media {
+.navbar > .social-media-container {
   position: absolute;
   height: 5%;
+  width: 8%;
   min-width: 5%;
   bottom: 0;
   right: 0;
