@@ -1,0 +1,78 @@
+#section > div > div > p {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 1.3em;
+  text-align: left;
+}
+
+.projet-name-content {
+  /* background-color: cadetblue; */
+  display: flex;
+  flex-direction: column;
+  width: 92%;
+}
+
+.projet-name-content > h2 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.6em;
+  text-align: left;
+}
+
+.projet-name-content > img {
+  margin: 5% 0 5% 0;
+  box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.365);
+}
+
+.return-container {
+  /* background-color: rgb(80, 255, 98); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.return-container > p {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 1.3em;
+}
+
+.return {
+  width: 15%;
+  max-width: 30px;
+  /* background-color: coral; */
+  aspect-ratio: 1/1;
+}
+
+@media (max-width: 600px) {
+  #nav-projet {
+    padding-left: 0vw;
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .return-container {
+    position: fixed;
+    right: 0%;
+    bottom: 5%;
+    width: 15%;
+    height: 5%;
+  }
+
+  .return-container:hover {
+    transform: scale(1.1);
+  }
+
+  .return {
+    width: 100%;
+  }
+}

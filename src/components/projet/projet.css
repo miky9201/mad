@@ -37,6 +37,11 @@
   margin-bottom: 10%;
 }
 
+.projet-content a {
+  text-decoration: none;
+  color: #000;
+}
+
 .thumb {
   /* background-color: red; */
   margin: 1px;
@@ -45,6 +50,7 @@
   align-items: flex-start;
   width: 94%;
   margin-bottom: 5%;
+  text-decoration: none;
 }
 
 .thumb img {

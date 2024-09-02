@@ -1,13 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./projet.css";
 import projetContent from "../../content/projetContent";
 import projetsNav from "../../content/projetsNav";
 import Aside from "../aside/Aside";
 import Logo from "../logo/Logo";
 import ProjetType from "./projetType/ProjetType";
+import { Link } from "react-router-dom";
 
-function Projet({ windowWidth }) {
+function Projet({ windowWidth, setSelectedProjet }) {
   const [navChoice, setNavChoice] = useState(0);
+
+  useEffect(() => {
+    // Scroll vers le haut quand le composant est monté
+    window.scrollTo(0, 0);
+  }, []);
 
   const handleClick = (index) => {
     setNavChoice(index);
@@ -59,12 +65,14 @@ function Projet({ windowWidth }) {
       )}
       <div className="projet-content">
         {filteredProjetContent.map((projet, index) => (
-          <ProjetType
-            key={index}
-            navChoice={navChoice}
-            projetContent={projet}
-            index={index}
-          />
+          <Link to={`/projet/${projet.name}`}>
+            <ProjetType
+              navChoice={navChoice}
+              projetContent={projet}
+              index={index}
+              setSelectedProjet={setSelectedProjet}
+            />
+          </Link>
         ))}
       </div>
       <div className="address-bottom">3 Passage Perreur | Paris</div>

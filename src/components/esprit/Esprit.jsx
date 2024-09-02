@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./esprit.css";
 import Aside from "../aside/Aside";
 import Logo from "../logo/Logo";
 
 function Esprit({ windowWidth }) {
+  useEffect(() => {
+    // Scroll vers le haut quand le composant est monté
+    window.scrollTo(0, 0);
+  }, []);
+
   const espritContent = [
     {
       name: "esprit-1",

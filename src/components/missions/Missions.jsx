@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./missions.css";
 import missionContent from "../../content/missionContent";
 import Aside from "../aside/Aside";
@@ -7,6 +7,10 @@ import FixedDiv from "../fixedDiv/FixedDiv";
 import Logo from "../logo/Logo";
 
 function Missions({ windowWidth }) {
+  useEffect(() => {
+    // Scroll vers le haut quand le composant est monté
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       {windowWidth > 600 ? <Aside></Aside> : <Logo />}

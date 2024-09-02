@@ -1,32 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./agence.css";
 import Aside from "../aside/Aside";
 import Logo from "../logo/Logo";
 import agenceImg from "../../assets/images/agence-1.jpg";
 
 function Agence({ windowWidth }) {
+  useEffect(() => {
+    // Scroll vers le haut quand le composant est monté
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div>
-        {windowWidth > 600 ? (
-          <Aside>
-            {/* <div id="nav-mission">
-            {missionContent.map((mission, index) => (
-              <a
-                href="###"
-                className={index === 0 ? "focus" : null}
-                tabIndex="0"
-                key={index}
-                // onClick={() => handleClick(index)}
-              >
-                {mission.navTitle}
-              </a>
-            ))}
-          </div> */}
-          </Aside>
-        ) : (
-          <Logo />
-        )}
+        {windowWidth > 600 ? <Aside></Aside> : <Logo />}
         <h1>AGENCE |</h1>
         <div className="agence-content">
           <p>

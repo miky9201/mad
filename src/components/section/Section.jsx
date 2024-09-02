@@ -5,13 +5,17 @@ import Agence from "../agence/Agence.jsx";
 import Missions from "../missions/Missions.jsx";
 import Esprit from "../esprit/Esprit.jsx";
 import Projet from "../projet/Projet.jsx";
+import ProjetModal from "../projetModal/ProjetModal.jsx";
+
 import { Routes, Route, useLocation } from "react-router-dom";
 
 function Section() {
   const location = useLocation();
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [selectedProjet, setSelectedProjet] = useState({});
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     const handleResize = () => setWindowWidth(window.innerWidth);
 
     window.addEventListener("resize", handleResize);
@@ -29,7 +33,24 @@ function Section() {
           element={<Missions windowWidth={windowWidth} />}
         />
         <Route path="/esprit" element={<Esprit windowWidth={windowWidth} />} />
-        <Route path="/projet" element={<Projet windowWidth={windowWidth} />} />
+        <Route
+          path="/projet"
+          element={
+            <Projet
+              windowWidth={windowWidth}
+              setSelectedProjet={setSelectedProjet}
+            />
+          }
+        />
+        <Route
+          path="/projet/:projectName"
+          element={
+            <ProjetModal
+              windowWidth={windowWidth}
+              selectedProjet={selectedProjet}
+            />
+          }
+        />
       </Routes>
     </section>
   );
