@@ -8,6 +8,10 @@ const projetsNav = [
     navTitle: "CLUB |",
   },
   {
+    categoryId: "evenementiel",
+    navTitle: "EVENEMENTIEL |",
+  },
+  {
     categoryId: "retail",
     navTitle: "RETAIL |",
   },
@@ -15,10 +19,6 @@ const projetsNav = [
     categoryId: "residentiel",
     navTitle: "RESIDENTIEL |",
   },
-  // {
-  //   categoryId: "evenementiel",
-  //   navTitle: "EVENEMENTIEL |",
-  // },
   {
     categoryId: "office",
     navTitle: "OFFICE |",

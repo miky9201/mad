@@ -64,15 +64,16 @@ function Projet({ windowWidth, setSelectedProjet }) {
         </div>
       )}
       <div className="projet-content">
-        {filteredProjetContent.map((projet, index) => (
-          <Link to={`/projet/${projet.name}`}>
-            <ProjetType
-              navChoice={navChoice}
-              projetContent={projet}
-              index={index}
-              setSelectedProjet={setSelectedProjet}
-            />
-          </Link>
+        {filteredProjetContent.map((projet) => (
+          <React.Fragment key={projet.name}>
+            <Link to={`/projet/${projet.name}`}>
+              <ProjetType
+                navChoice={navChoice}
+                projetContent={projet}
+                setSelectedProjet={setSelectedProjet}
+              />
+            </Link>
+          </React.Fragment>
         ))}
       </div>
       <div className="address-bottom">3 Passage Perreur | Paris</div>

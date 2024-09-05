@@ -24,7 +24,11 @@ function Socials({ colorType, isAside }) {
           >
             <CiMail />
           </a>
-          <a href="https://www.google.fr" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com/in/mad-design-sandra-cannet-b29671308/?originalSubdomain=fr"
+            target="_blank"
+            rel="noreferrer"
+          >
             <CiLinkedin />
           </a>
         </IconContext.Provider>

@@ -1,29 +1,34 @@
-import gigiImg from "../assets/images/gigi-img-1.jpg";
-import bambiniImg from "../assets/images/bambini-img-1.jpg";
-import sofitelImg from "../assets/images/sofitel-img-1.jpg";
-import montanaImg from "../assets/images/montana-img-1.jpg";
-import cornichonImg from "../assets/images/cornichon-img-1.jpg";
-import revkaImg from "../assets/images/revka-img-1.png";
-import perrucheImg from "../assets/images/perruche-img-1.jpg";
-import coutumeImg from "../assets/images/coutume-img-1.jpg";
-import cadetImg from "../assets/images/cadet-img-1.jpeg";
-import clutchImg from "../assets/images/clutch-img-1.jpg";
-import codysImg from "../assets/images/codys-img-1.jpg";
-import phantomImg from "../assets/images/phantom-img-1.jpg";
-import terminalImg from "../assets/images/terminal-img-1.jpg";
-import haussmannImg from "../assets/images/haussmann-img-1.jpg";
-import burburryImg from "../assets/images/burburry-img-1.jpg";
-import zadigImg from "../assets/images/zadig-img-1.jpg";
-import jimmyImg from "../assets/images/jimmy-img-1.jpg";
-import mackageImg from "../assets/images/mackage-img-1.jpg";
-import saintgermainImg from "../assets/images/saint-germain-img-1.jpg";
-import paris9Img from "../assets/images/paris-9-img-1.jpg";
-import raspailImg from "../assets/images/raspail-img-1.jpg";
-import lepicImg from "../assets/images/lepic-1-img.jpg";
-import regisbottaImg from "../assets/images/regis-botta-1-img.png";
-import gareImg from "../assets/images/gare-img-1.jpeg";
-import chellesImg from "../assets/images/chelles-img-1.jpg";
-import vocalcomImg from "../assets/images/vocalcom-img-1.jpg";
+import gigiImg from "../assets/images/main/gigi-1.jpg";
+import bambiniImg from "../assets/images/main/bambini-1.jpg";
+import sofitelImg from "../assets/images/main/sofitel-1.jpg";
+import montanaImg from "../assets/images/main/montana-1.jpg";
+import cornichonImg from "../assets/images/main/cornichon-1.jpg";
+import revkaImg from "../assets/images/main/revka-1.jpg";
+import perrucheImg from "../assets/images/main/perruche-1.jpg";
+import coutumeImg from "../assets/images/main/coutume-1.jpg";
+import cadetImg from "../assets/images/main/cadet-1.jpg";
+import clutchImg from "../assets/images/main/clutch-1.jpg";
+import phantomImg from "../assets/images/main/phantom-1.jpg";
+import terminalImg from "../assets/images/main/terminal-1.jpg";
+import haussmannImg from "../assets/images/main/haussmann-1.jpg";
+import usopfImg from "../assets/images/main/usopf-1.jpg";
+import adidasImg from "../assets/images/main/adidas-1.jpg";
+import alpineImg from "../assets/images/main/alpine-1.jpg";
+import longchampImg from "../assets/images/main/longchamp-1.jpg";
+import entrepriseImg from "../assets/images/main/entreprise-1.png";
+import melbaImg from "../assets/images/main/melba-1.jpg";
+import burberryImg from "../assets/images/main/burberry-1.jpg";
+import zadigImg from "../assets/images/main/zadig-1.jpg";
+import jimmyImg from "../assets/images/main/jimmy-1.jpg";
+import mackageImg from "../assets/images/main/mackage-1.jpg";
+import saintgermainImg from "../assets/images/main/germain-1.jpg";
+import paris9Img from "../assets/images/main/paris-9-1.jpg";
+import raspailImg from "../assets/images/main/raspail-1.jpg";
+import lepicImg from "../assets/images/main/lepic-1.jpg";
+import bottaImg from "../assets/images/main/botta-1.jpg";
+import vaugirardImg from "../assets/images/main/vaugirard-1.jpg";
+import chellesImg from "../assets/images/main/chelles-1.jpg";
+import vocalcomImg from "../assets/images/main/vocalcom-1.jpg";
 
 const projetContent = [
   {
@@ -36,7 +41,7 @@ const projetContent = [
         <h2>15 avenue Montaigne | Paris</h2>
         <h2>MOA : PARIS SOCIETY</h2>
         <h2>Architecte : Hugo Toro</h2>
-        <h2>Maitrise d’oeuvre / OPC : MAD design</h2>
+        <h2>MO / OPC : MAD design</h2>
         <h2>
           Mission : Rénovation complète du restaurant Gigi, ancienne adresse
           mythique Maison Blanche sur le toit du théâtre des Champs Elysées
@@ -69,7 +74,7 @@ const projetContent = [
         <h2>51 avenue franklin Delano Roosevelt | Paris</h2>
         <h2>MOA : PARIS SOCIETY</h2>
         <h2>Architecte : Friedmann & Versace </h2>
-        <h2>Maitrise d’oeuvre / OPC : MAD design </h2>
+        <h2>MO / OPC : MAD design </h2>
         <h2>
           Mission : Création complète d’un restaurant au sein du musée du Palais
           de Tokyo, avec terrasse extérieure sur l’esplanade de la fontaine du
@@ -111,7 +116,7 @@ const projetContent = [
         <h2>La Défense | PARIS</h2>
         <h2>MOA: Groupe Accor</h2>
         <h2>Architecte d’intérieur : Maison Numéro 20</h2>
-        <h2>Maitrise d’oeuvre d’exécution : MAD design </h2>
+        <h2>MO d’exécution : MAD design </h2>
         <h2>
           Mission : Direction des travaux, suivi de projet tout corps d’état du
           Lobby-Restaurant
@@ -160,7 +165,7 @@ const projetContent = [
         <h2>28 rue Saint-Benoît | Paris</h2>
         <h2>MOA : Privé</h2>
         {/* <h2>Architecte : Hugo Toro</h2> */}
-        <h2>Architecte d'intérieur / Maitrise d’oeuvre / OPC : MAD design</h2>
+        <h2>Architecte d'intérieur / MO / OPC : MAD design</h2>
         <h2>
           Mission : Reprise du club mythique des années 80 : Rénovation complète
           du bar, restaurant, rooftop.
@@ -201,7 +206,7 @@ const projetContent = [
         <h2>2 rue Goncourt | Paris</h2>
         <h2>MOA : PANEM & CIRCENSES GROUP </h2>
         <h2>Architecte : Claves Architecture </h2>
-        <h2>Maitrise d’oeuvre / OPC : MAD design</h2>
+        <h2>MO / OPC : MAD design</h2>
         <h2>
           Mission : Direction des travaux pour l'aménagement de Cornichon, un
           restaurant inspiré des bars tabac des années 80. Ce projet recrée avec
@@ -248,7 +253,7 @@ const projetContent = [
         <h2>Avenue Raymond Poincaré | Paris</h2>
         <h2>MOA : PARIS SOCIETY</h2>
         <h2>Architecte : Laleh Amir Assefi</h2>
-        <h2>Maitrise d’oeuvre / OPC : MAD design</h2>
+        <h2>MO / OPC : MAD design</h2>
         <h2>
           Mission : Direction des travaux, suivi de projet tout corps d’état du
           restaurant, des salons privés ainsi que de la terrasse de la cour
@@ -282,7 +287,7 @@ const projetContent = [
         <h2>Boulevard Hausmann | Paris</h2>
         <h2>MOA : PARIS SOCIETY</h2>
         <h2>Architecte : Hugo Toro</h2>
-        <h2>Maitrise d’oeuvre / OPC : MAD design</h2>
+        <h2>MO / OPC : MAD design</h2>
         <h2>
           Mission : Direction des travaux du restaurant situé sur le toit du
           Printemps, boulevard Haussmann. Travaux comprenant grutage, horaires
@@ -328,7 +333,7 @@ const projetContent = [
         <h2>Boulevard Hausmann | Paris</h2>
         <h2>MOA : SAS Maitre du Terroir</h2>
         <h2>Architecte : Cut Architecture</h2>
-        <h2>Maitrise d’oeuvre / OPC : MAD design</h2>
+        <h2>MO / OPC : MAD design</h2>
         <h2>
           Mission : Direction des travaux d’un espace café restauration sous la
           coupole des Galerie Lafayette. Suivi du projet avec le centre
@@ -416,7 +421,7 @@ const projetContent = [
         <h2>Rue des boulets | Paris</h2>
         <h2>MOA : Pierre Rieder et Maxime Mérienne</h2>
         {/* <h2>Architecte : Cut Architecture</h2> */}
-        <h2>Architecte d’intérieur / Maitrise d’oeuvre : MAD design </h2>
+        <h2>Architecte d’intérieur / MO : MAD design </h2>
         <h2>
           Mission : Conception d’un restaurant bistronomique, suivi des travaux
           en tout corps d’etat.
@@ -439,159 +444,981 @@ const projetContent = [
       },
     ],
   },
+  // {
+  //   categoryId: "restaurant",
+  //   name: "codys",
+  //   title: "Cody’s | Paris (À Venir)",
+  //   content: (
+  //     <>
+  //       <h2>Rénovation Espace d’Accueil, Restaurant, Circulations</h2>
+  //       <h2>7e arrondissement | Paris</h2>
+  //       <h2>MOA : Two dot</h2>
+  //       {/* <h2>Architecte : Cut Architecture</h2> */}
+  //       <h2>Architecte d’intérieur / MO : MAD design </h2>
+  //       <h2>
+  //         Mission :Conception et suivi de chantier d’un café / vente bagel à
+  //         emporter.
+  //       </h2>
+  //     </>
+  //   ),
+  //   mainImage: codysImg,
+  //   images: [
+  //     {
+  //       name: "codys-1",
+  //       url: "../images/codys/codys-1.jpg",
+  //     },
+  //     {
+  //       name: "codys-2",
+  //       url: "../images/codys/codys-2.jpg",
+  //     },
+  //     {
+  //       name: "codys-3",
+  //       url: "../images/codys/codys-3.jpg",
+  //     },
+  //     {
+  //       name: "codys-4",
+  //       url: "../images/codys/codys-4.jpg",
+  //     },
+  //     {
+  //       name: "codys-5",
+  //       url: "../images/codys/codys-5.jpg",
+  //     },
+  //     {
+  //       name: "codys-6",
+  //       url: "../images/codys/codys-6.jpg",
+  //     },
+  //     {
+  //       name: "codys-7",
+  //       url: "../images/codys/codys-7.jpg",
+  //     },
+  //   ],
+  // },
   {
-    categoryId: "restaurant",
-    name: "codys",
-    title: "Cody’s | Paris (À Venir)",
+    categoryId: "club",
+    name: "phantom",
+    title: "Phantom | Paris",
     content: (
       <>
-        <h2>Rénovation Espace d’Accueil, Restaurant, Circulations</h2>
-        <h2>7e arrondissement | Paris</h2>
-        <h2>MOA : Two dot</h2>
+        <h2>Club</h2>
+        <h2>8 boulevard de Bercy | Paris</h2>
+        <h2>MOA : PARIS SOCIETY </h2>
         {/* <h2>Architecte : Cut Architecture</h2> */}
-        <h2>Architecte d’intérieur / Maitrise d’oeuvre : MAD design </h2>
+        <h2>Architecte d’intérieur / MO / OPC : MAD design </h2>
         <h2>
-          Mission :Conception et suivi de chantier d’un café / vente bagel à
-          emporter.
+          Mission : Conception de la plus grande scene de musique electronique à
+          Paris. Travail sur la scénographie – l’architecture des différents
+          espaces ( Accueil extérieur, Salle de concert, Zone VIP… ). Le but de
+          ce projet : plonger le spectateur dans une véritable expérience
+          immersive.
         </h2>
       </>
     ),
-    mainImage: codysImg,
+    mainImage: phantomImg,
     images: [
       {
-        name: "codys-1",
-        url: "../images/codys/codys-1.jpg",
+        name: "phantom-1",
+        url: "../images/phantom/phantom-1.jpg",
       },
       {
-        name: "codys-2",
-        url: "../images/codys/codys-2.jpg",
+        name: "phantom-2",
+        url: "../images/phantom/phantom-2.jpg",
       },
       {
-        name: "codys-3",
-        url: "../images/codys/codys-3.jpg",
+        name: "phantom-3",
+        url: "../images/phantom/phantom-3.jpg",
       },
       {
-        name: "codys-4",
-        url: "../images/codys/codys-4.jpg",
+        name: "phantom-4",
+        url: "../images/phantom/phantom-4.jpg",
       },
       {
-        name: "codys-5",
-        url: "../images/codys/codys-5.jpg",
+        name: "phantom-5",
+        url: "../images/phantom/phantom-5.jpg",
       },
       {
-        name: "codys-6",
-        url: "../images/codys/codys-6.jpg",
+        name: "phantom-6",
+        url: "../images/phantom/phantom-6.jpg",
       },
       {
-        name: "codys-7",
-        url: "../images/codys/codys-7.jpg",
+        name: "phantom-7",
+        url: "../images/phantom/phantom-7.jpg",
+      },
+      {
+        name: "phantom-8",
+        url: "../images/phantom/phantom-8.jpg",
       },
     ],
   },
   {
     categoryId: "club",
-    name: "phantom",
-    title: <p>Phantom |</p>,
-    content: <p>Ceci est la description du projet</p>,
-    mainImage: phantomImg,
-  },
-  {
-    categoryId: "club",
-    name: "terminal-7",
-    title: <p>Terminal 7 |</p>,
-    content: <p>Ceci est la description du projet</p>,
+    name: "terminal",
+    title: <p>Terminal 7 | Paris</p>,
+    content: (
+      <>
+        <h2>Club</h2>
+        <h2>Parc des Expositions | Paris</h2>
+        <h2>MOA : PARIS SOCIETY </h2>
+        {/* <h2>Architecte : Cut Architecture</h2> */}
+        <h2>Architecte d’intérieur / MO / OPC : MAD design </h2>
+        <h2>
+          Mission : Direction des travaux du Club du Parc des expositions -
+          Porte de Versailles. Suivi du projet architectural, respect du timing
+          ainsi que du budget client.
+        </h2>
+      </>
+    ),
     mainImage: terminalImg,
+    images: [
+      {
+        name: "terminal-1",
+        url: "../images/terminal/terminal-1.jpg",
+      },
+      {
+        name: "terminal-2",
+        url: "../images/terminal/terminal-2.jpg",
+      },
+      {
+        name: "terminal-3",
+        url: "../images/terminal/terminal-3.jpg",
+      },
+      {
+        name: "terminal-4",
+        url: "../images/terminal/terminal-4.jpg",
+      },
+      {
+        name: "terminal-5",
+        url: "../images/terminal/terminal-5.jpg",
+      },
+      {
+        name: "terminal-6",
+        url: "../images/terminal/terminal-6.jpg",
+      },
+      {
+        name: "phantom-7",
+        url: "../images/phantom/phantom-7.jpg",
+      },
+      {
+        name: "phantom-8",
+        url: "../images/phantom/phantom-8.jpg",
+      },
+    ],
   },
   {
     categoryId: "club",
-    name: "club-haussmann",
-    title: <p>Club Haussmann |</p>,
-    content: <p>Ceci est la description du projet</p>,
+    name: "haussmann",
+    title: <p>Club Haussmann | Paris</p>,
+    content: (
+      <>
+        <h2>Club</h2>
+        <h2>Parc des Expositions | Paris</h2>
+        <h2>MOA : PARIS SOCIETY </h2>
+        {/* <h2>Architecte : Cut Architecture</h2> */}
+        <h2>Architecte d’intérieur / MO / OPC : MAD design </h2>
+        <h2>
+          Mission : Direction des travaux du Club du Parc des expositions -
+          Porte de Versailles. Suivi du projet architectural, respect du timing
+          ainsi que du budget client.
+        </h2>
+      </>
+    ),
     mainImage: haussmannImg,
+    images: [
+      {
+        name: "haussmann-1",
+        url: "../images/haussmann/haussmann-1.jpg",
+      },
+      {
+        name: "haussmann-2",
+        url: "../images/haussmann/haussmann-2.jpg",
+      },
+      {
+        name: "haussmann-3",
+        url: "../images/haussmann/haussmann-3.jpg",
+      },
+      {
+        name: "haussmann-4",
+        url: "../images/haussmann/haussmann-4.jpg",
+      },
+      {
+        name: "haussmann-5",
+        url: "../images/haussmann/haussmann-5.jpg",
+      },
+      {
+        name: "haussmann-6",
+        url: "../images/haussmann/haussmann-6.jpg",
+      },
+      {
+        name: "haussmann-7",
+        url: "../images/haussmann/haussmann-7.jpg",
+      },
+    ],
+  },
+  {
+    categoryId: "evenementiel",
+    name: "usopf",
+    title: <p>USOPF Team USA | Paris</p>,
+    content: (
+      <>
+        <h2>Salons d’accueil</h2>
+        <h2>Le Meurice - Le Peninsula | Paris</h2>
+        <h2>MOA : On Location (organisateur principal des JO de Paris 2024)</h2>
+        {/* <h2>Architecte : Cut Architecture</h2> */}
+        <h2>Architecte d’intérieur / MO : MAD design </h2>
+        <h2>
+          Mission : Conception des salons d'accueil pour les familles d’athlètes
+          de la Team USA durant les Jeux Olympiques, au sein des hôtels 5* Le
+          Meurice et Le Peninsula. Espaces confortables, permettant le
+          visionnage des épreuves, avec des zones de restauration ainsi que des
+          espaces de travail.
+        </h2>
+      </>
+    ),
+    mainImage: usopfImg,
+    images: [
+      {
+        name: "usopf-1",
+        url: "../images/usopf/usopf-1.jpg",
+      },
+      {
+        name: "usopf-2",
+        url: "../images/usopf/usopf-2.jpg",
+      },
+      {
+        name: "usopf-3",
+        url: "../images/usopf/usopf-3.jpg",
+      },
+      {
+        name: "usopf-4",
+        url: "../images/usopf/usopf-4.jpg",
+      },
+      {
+        name: "usopf-5",
+        url: "../images/usopf/usopf-5.jpg",
+      },
+      {
+        name: "usopf-6",
+        url: "../images/usopf/usopf-6.jpg",
+      },
+      {
+        name: "usopf-7",
+        url: "../images/usopf/usopf-7.jpg",
+      },
+    ],
+  },
+  {
+    categoryId: "evenementiel",
+    name: "adidas",
+    title: <p>Adidas Arena | Paris</p>,
+    content: (
+      <>
+        <h2>Arena - Stade couvert </h2>
+        <h2>58 boulevard Ney | Paris</h2>
+        <h2>MOA : Groupe Accor</h2>
+        {/* <h2>Architecte : Cut Architecture</h2> */}
+        <h2>OPC : MAD design </h2>
+        <h2>
+          Mission : Suivi des travaux et pose de la signalétique de la salle
+          polyvalente (extérieur et intérieur)
+        </h2>
+      </>
+    ),
+    mainImage: adidasImg,
+    images: [
+      {
+        name: "adidas-1",
+        url: "../images/adidas/adidas-1.jpg",
+      },
+      {
+        name: "adidas-2",
+        url: "../images/adidas/adidas-2.jpg",
+      },
+      {
+        name: "adidas-3",
+        url: "../images/adidas/adidas-3.jpg",
+      },
+      {
+        name: "adidas-4",
+        url: "../images/adidas/adidas-4.jpg",
+      },
+    ],
+  },
+  {
+    categoryId: "evenementiel",
+    name: "alpine",
+    title: <p>Alpine | Paris</p>,
+    content: (
+      <>
+        <h2>Espace Muséographique</h2>
+        <h2>Le Dernier Etage, 9 rue Forest | Paris</h2>
+        <h2>MOA : PARIS SOCIETY</h2>
+        {/* <h2>Architecte : Cut Architecture</h2> */}
+        <h2>Architecte scénographe / MO : MAD design </h2>
+        <h2>
+          Mission : Elaboration de l'exposition Alpine à Paris, dédiée à la
+          présentation de voitures de la marque. Mise en scène des véhicules au
+          sein du Dernier Etage – lieux d’exposition Paris Society.
+        </h2>
+      </>
+    ),
+    mainImage: alpineImg,
+    images: [
+      {
+        name: "alpine-1",
+        url: "../images/alpine/alpine-1.jpg",
+      },
+      {
+        name: "alpine-2",
+        url: "../images/alpine/alpine-2.jpg",
+      },
+      {
+        name: "alpine-3",
+        url: "../images/alpine/alpine-3.jpg",
+      },
+      {
+        name: "alpine-4",
+        url: "../images/alpine/alpine-4.jpg",
+      },
+      {
+        name: "alpine-5",
+        url: "../images/alpine/alpine-5.jpg",
+      },
+    ],
+  },
+  {
+    categoryId: "evenementiel",
+    name: "longchamp",
+    title: (
+      <p>
+        Hippodrome Paris Longchamp <br /> (Le Petit Pré) | Paris
+      </p>
+    ),
+    content: (
+      <>
+        <h2>Espace Événementiel</h2>
+        <h2>2 routes des tribunes | Paris</h2>
+        <h2>MOA : PARIS SOCIETY</h2>
+        {/* <h2>Architecte : Cut Architecture</h2> */}
+        <h2>Architecte scénographe / MO : MAD design </h2>
+        <h2>
+          Mission : Création d’un espace de restauration et de détente au cœur
+          de l'Hippodrome de Longchamp. Aménagement de bars, de zones de jeux,
+          et d’une scène pour les DJ sets. Une grande piste de roller a aussi
+          été conçue.
+        </h2>
+      </>
+    ),
+    mainImage: longchampImg,
+    images: [
+      {
+        name: "longchamp-1",
+        url: "../images/longchamp/longchamp-1.jpg",
+      },
+      {
+        name: "longchamp-2",
+        url: "../images/longchamp/longchamp-2.jpg",
+      },
+      {
+        name: "longchamp-3",
+        url: "../images/longchamp/longchamp-3.jpg",
+      },
+      {
+        name: "longchamp-4",
+        url: "../images/longchamp/longchamp-4.jpg",
+      },
+      {
+        name: "longchamp-5",
+        url: "../images/longchamp/longchamp-5.jpg",
+      },
+      {
+        name: "longchamp-6",
+        url: "../images/longchamp/longchamp-6.jpg",
+      },
+    ],
+  },
+  {
+    categoryId: "evenementiel",
+    name: "entreprise",
+    title: <p>Entreprise Privée | Paris</p>,
+    content: (
+      <>
+        <h2>Espace Événementiel JO 2024</h2>
+        <h2>10 avenue des Champs-Elysées | Paris</h2>
+        <h2>MOA : On Location (organisateur principal des JO de Paris 2024)</h2>
+        {/* <h2>Architecte : Cut Architecture</h2> */}
+        <h2>Architecte d'Intérieur : MAD design </h2>
+        <h2>
+          Mission : Conception d’espaces de réception pour une entreprise
+          internationale s’installant au Pavillon de l’Elysée pour les Jeux
+          Olympiques de Paris. Conception d’espaces lounge, de points d’accueil,
+          d’espace de restauration, d’exposition.
+        </h2>
+      </>
+    ),
+    mainImage: entrepriseImg,
+    images: [
+      {
+        name: "entreprise-1",
+        url: "../images/entreprise/entreprise-1.jpg",
+      },
+      {
+        name: "entreprise-2",
+        url: "../images/entreprise/entreprise-2.jpg",
+      },
+      {
+        name: "entreprise-3",
+        url: "../images/entreprise/entreprise-3.jpg",
+      },
+      {
+        name: "entreprise-4",
+        url: "../images/entreprise/entreprise-4.jpg",
+      },
+    ],
+  },
+  {
+    categoryId: "evenementiel",
+    name: "melba",
+    title: <p>Melba | Paris</p>,
+    content: (
+      <>
+        <h2>Peniche Restaurant </h2>
+        <h2>1 rue de Solferino | Paris</h2>
+        <h2>MOA : PARIS SOCIETY</h2>
+        {/* <h2>Architecte : Cut Architecture</h2> */}
+        <h2>Architecte d'Intérieur / MO : MAD design </h2>
+        <h2>
+          Mission : Conception et suivi des travaux du projet Melba, Vaporetto
+          vénitien des années 30, transformé en un espace évènementiel. Péniche
+          à l’esprit méditerranéenne, entre le Pont de la Concorde et le Pont
+          Royal, évoquant l'ambiance conviviale d'une maison de vacances en bord
+          de mer.
+        </h2>
+      </>
+    ),
+    mainImage: melbaImg,
+    images: [
+      {
+        name: "melba-1",
+        url: "../images/melba/melba-1.jpg",
+      },
+      {
+        name: "melba-2",
+        url: "../images/melba/melba-2.jpg",
+      },
+      {
+        name: "melba-3",
+        url: "../images/melba/melba-3.jpg",
+      },
+      {
+        name: "melba-4",
+        url: "../images/melba/melba-4.jpg",
+      },
+    ],
   },
   {
     categoryId: "retail",
-    name: "burburry",
-    title: <p>Burburry |</p>,
-    content: <p>Ceci est la description du projet</p>,
-    mainImage: burburryImg,
+    name: "burberry",
+    title: <p>Burberry | Paris</p>,
+    content: (
+      <>
+        <h2>Réalisation Boutique de Luxe</h2>
+        <h2>Galeries Lafayette, Boulevard Haussmann | Paris</h2>
+        <h2>MOA : BURBERRY France</h2>
+        <h2>Architecte : BURBERRY</h2>
+        <h2>MO / OPC : MAD design </h2>
+        <h2>
+          Mission : Gestion des travaux en tout corps d’état – travail combiné
+          avec les Galeries Lafayette, phasage travaux suivant accueil du public
+          la journée.
+        </h2>
+      </>
+    ),
+    mainImage: burberryImg,
+    images: [
+      {
+        name: "burberry-1",
+        url: "../images/burberry/burberry-1.jpg",
+      },
+      {
+        name: "burberry-2",
+        url: "../images/burberry/burberry-2.jpg",
+      },
+      {
+        name: "burberry-3",
+        url: "../images/burberry/burberry-3.jpg",
+      },
+      {
+        name: "burberry-4",
+        url: "../images/burberry/burberry-4.jpg",
+      },
+    ],
   },
   {
     categoryId: "retail",
-    name: "zadig-voltaire",
-    title: <p>Zadig & Voltaire |</p>,
-    content: <p>Ceci est la description du projet</p>,
+    name: "zadig",
+    title: <p>Zadig et Voltaire | Europe</p>,
+    content: (
+      <>
+        <h2>Réalisation Boutiques et Corners Haut de Gamme</h2>
+        <h2>
+          France, Portugal, Pays Bas, Suisse, Allemagne, Angleterre, Italie,
+          Belgique, Espagne
+        </h2>
+        <h2>MOA : Zadig & Voltaire</h2>
+        <h2>Architecte : Zadig & Voltaire</h2>
+        <h2>MO / OPC : MAD design </h2>
+        <h2>
+          Mission : Rénovation des boutiques et corners dans les centres
+          commerciaux et villages de marque, à travers l’Europe – Dessins
+          techniques et visuels 3D
+        </h2>
+      </>
+    ),
     mainImage: zadigImg,
+    images: [
+      {
+        name: "zadig-1",
+        url: "../images/zadig/zadig-1.jpg",
+      },
+      {
+        name: "zadig-2",
+        url: "../images/zadig/zadig-2.jpg",
+      },
+      {
+        name: "zadig-3",
+        url: "../images/zadig/zadig-3.jpg",
+      },
+      {
+        name: "zadig-4",
+        url: "../images/zadig/zadig-4.jpg",
+      },
+      {
+        name: "zadig-5",
+        url: "../images/zadig/zadig-5.jpg",
+      },
+      {
+        name: "zadig-6",
+        url: "../images/zadig/zadig-6.jpg",
+      },
+      {
+        name: "zadig-7",
+        url: "../images/zadig/zadig-7.jpg",
+      },
+      {
+        name: "zadig-8",
+        url: "../images/zadig/zadig-8.jpg",
+      },
+      {
+        name: "zadig-9",
+        url: "../images/zadig/zadig-9.jpg",
+      },
+      {
+        name: "zadig-10",
+        url: "../images/zadig/zadig-10.jpg",
+      },
+      {
+        name: "zadig-11",
+        url: "../images/zadig/zadig-11.jpg",
+      },
+      {
+        name: "zadig-12",
+        url: "../images/zadig/zadig-12.jpg",
+      },
+    ],
   },
   {
     categoryId: "retail",
-    name: "jimmy-choo",
-    title: <p>Jimmy Choo |</p>,
-    content: <p>Ceci est la description du projet</p>,
+    name: "jimmy",
+    title: <p>Jimmy Choo | Paris</p>,
+    content: (
+      <>
+        <h2>Réalisation Boutique de Luxe</h2>
+        <h2>Avenue Montaigne | Paris</h2>
+        <h2>MOA : Jimmy CHOO</h2>
+        <h2>Architecte : Jimmy CHOO</h2>
+        <h2>MO / OPC : MAD design </h2>
+        <h2>
+          Mission : Direction des travaux, suivi de projet tout corps d’état de
+          la boutique ainsi que du back office.
+        </h2>
+      </>
+    ),
     mainImage: jimmyImg,
+    images: [
+      {
+        name: "jimmy-1",
+        url: "../images/jimmy/jimmy-1.jpg",
+      },
+      {
+        name: "jimmy-2",
+        url: "../images/jimmy/jimmy-2.jpg",
+      },
+      {
+        name: "jimmy-3",
+        url: "../images/jimmy/jimmy-3.jpg",
+      },
+      {
+        name: "jimmy-4",
+        url: "../images/jimmy/jimmy-4.jpg",
+      },
+      {
+        name: "jimmy-5",
+        url: "../images/jimmy/jimmy-5.jpg",
+      },
+      {
+        name: "jimmy-6",
+        url: "../images/jimmy/jimmy-6.jpg",
+      },
+    ],
   },
   {
     categoryId: "retail",
     name: "mackage",
-    title: <p>Mackage |</p>,
-    content: <p>Ceci est la description du projet</p>,
+    title: <p>Mackage | Paris</p>,
+    content: (
+      <>
+        <h2>Réalisation Boutique Haut de Gamme</h2>
+        <h2>Rue St-Honoré | Paris</h2>
+        <h2>MOA : MACKAGE</h2>
+        <h2>Architecte : Burdifilek</h2>
+        <h2>Mission : Réhabilitation complète d’une boutique sur 2 niveaux</h2>
+      </>
+    ),
     mainImage: mackageImg,
+    images: [
+      {
+        name: "mackage-1",
+        url: "../images/mackage/mackage-1.jpg",
+      },
+      {
+        name: "mackage-2",
+        url: "../images/mackage/mackage-2.jpg",
+      },
+      {
+        name: "mackage-3",
+        url: "../images/mackage/mackage-3.jpg",
+      },
+      {
+        name: "mackage-4",
+        url: "../images/mackage/mackage-4.jpg",
+      },
+    ],
   },
   {
     categoryId: "residentiel",
     name: "saint-germain",
-    title: <p>Bd Saint-Germain |</p>,
-    content: <p>Ceci est la description du projet</p>,
+    title: <p>Bd Saint-Germain | Paris</p>,
+    content: (
+      <>
+        <h2>Rénovation d’un appartement</h2>
+        <h2>St-Germain des Prés | Paris</h2>
+        <h2>MOA : Client Privé</h2>
+        <h2>Architecte d'intérieur : Peggy Bels</h2>
+        <h2>MO / OPC : MAD Design</h2>
+        <h2>
+          Mission : Rénovation complète appartement haussmannien, travaux tout
+          corps d’état.
+        </h2>
+      </>
+    ),
     mainImage: saintgermainImg,
+    images: [
+      {
+        name: "germain-1",
+        url: "../images/germain/germain-1.jpg",
+      },
+      {
+        name: "germain-2",
+        url: "../images/germain/germain-2.jpg",
+      },
+      {
+        name: "germain-3",
+        url: "../images/germain/germain-3.jpg",
+      },
+      {
+        name: "germain-4",
+        url: "../images/germain/germain-4.jpg",
+      },
+    ],
   },
   {
     categoryId: "residentiel",
     name: "paris-9",
-    title: <p>Paris 9e |</p>,
-    content: <p>Ceci est la description du projet</p>,
+    title: <p>Appartement 9ème | Paris</p>,
+    content: (
+      <>
+        <h2>Rénovation d’un appartement</h2>
+        <h2>Quartier Saint Georges | Paris</h2>
+        <h2>MOA : Client Privé</h2>
+        <h2>Architecte intérieur / MO / OPC : MAD design</h2>
+        <h2>
+          Mission : Conception et suivi de travaux appartement haussmannien,
+          travaux tout corps d’état.
+        </h2>
+      </>
+    ),
     mainImage: paris9Img,
+    images: [
+      {
+        name: "paris-9-1",
+        url: "../images/paris-9/paris-9-1.jpg",
+      },
+      {
+        name: "paris-9-2",
+        url: "../images/paris-9/paris-9-2.jpg",
+      },
+      {
+        name: "paris-9-3",
+        url: "../images/paris-9/paris-9-3.jpg",
+      },
+    ],
   },
   {
     categoryId: "residentiel",
     name: "raspail",
-    title: <p>Appartement Raspail |</p>,
-    content: <p>Ceci est la description du projet</p>,
+    title: <p>Appartement Raspail | Paris</p>,
+    content: (
+      <>
+        <h2>Rénovation d’un appartement</h2>
+        <h2>Boulevard Raspail | Paris</h2>
+        <h2>MOA : Client Privé</h2>
+        <h2>Architecte : Cut Architecture</h2>
+        <h2>MO / OPC : MAD design</h2>
+        <h2>
+          Mission : Direction des travaux tout corps d’état de l’appartement –
+          lots techniques ainsi que lots de second œuvre.
+        </h2>
+      </>
+    ),
     mainImage: raspailImg,
+    images: [
+      {
+        name: "raspail-1",
+        url: "../images/raspail/raspail-1.jpg",
+      },
+      {
+        name: "raspail-2",
+        url: "../images/raspail/raspail-2.jpg",
+      },
+      {
+        name: "raspail-3",
+        url: "../images/raspail/raspail-3.jpg",
+      },
+      {
+        name: "raspail-4",
+        url: "../images/raspail/raspail-4.jpg",
+      },
+      {
+        name: "raspail-5",
+        url: "../images/raspail/raspail-5.jpg",
+      },
+    ],
   },
   {
     categoryId: "residentiel",
     name: "lepic",
-    title: <p>Appartement Lepic |</p>,
-    content: <p>Ceci est la description du projet</p>,
+    title: <p>Appartement Rue Lepic | Paris</p>,
+    content: (
+      <>
+        <h2>Rénovation d’un appartement</h2>
+        <h2>Quartier Montmartre | Paris</h2>
+        <h2>MOA : Client Privé</h2>
+        <h2>Architecte : BL</h2>
+        <h2>MO / OPC : MAD design</h2>
+        <h2>
+          Mission : Direction des travaux tout corps d’état de l’appartement –
+          lots techniques ainsi que lots de second œuvre.
+        </h2>
+      </>
+    ),
     mainImage: lepicImg,
+    images: [
+      {
+        name: "lepic-1",
+        url: "../images/lepic/lepic-1.jpg",
+      },
+      {
+        name: "lepic-2",
+        url: "../images/lepic/lepic-2.jpg",
+      },
+      {
+        name: "lepic-3",
+        url: "../images/lepic/lepic-3.jpg",
+      },
+      {
+        name: "lepic-4",
+        url: "../images/lepic/lepic-4.jpg",
+      },
+    ],
   },
   {
     categoryId: "residentiel",
-    name: "regis-botta",
-    title: <p>Appartement Regis Botta |</p>,
-    content: <p>Ceci est la description du projet</p>,
-    mainImage: regisbottaImg,
+    name: "botta",
+    title: <p>Appartement Regis Botta | Paris</p>,
+    content: (
+      <>
+        <h2>Rénovation d’un appartement</h2>
+        <h2>La Madeleine | Paris</h2>
+        <h2>MOA : Client Privé</h2>
+        <h2>Architecte : Regis Botta</h2>
+        <h2>MO / OPC : MAD design</h2>
+        <h2>
+          Mission : Direction des travaux tout corps d’état de l’appartement –
+          lots techniques ainsi que lots de second œuvre.
+        </h2>
+      </>
+    ),
+    mainImage: bottaImg,
+    images: [
+      {
+        name: "botta-1",
+        url: "../images/botta/botta-1.jpg",
+      },
+      {
+        name: "botta-2",
+        url: "../images/botta/botta-2.jpg",
+      },
+      {
+        name: "botta-3",
+        url: "../images/botta/botta-3.jpg",
+      },
+      {
+        name: "botta-4",
+        url: "../images/botta/botta-4.jpg",
+      },
+    ],
   },
   {
     categoryId: "office",
-    name: "gare-vaugirard",
-    title: <p>Gare Vaugirard |</p>,
-    content: <p>Ceci est la description du projet</p>,
-    mainImage: gareImg,
+    name: "vaugirard",
+    title: <p>Gare Vaugirard | Paris</p>,
+    content: (
+      <>
+        <h2>Espace de coworking et café associatif</h2>
+        <h2>1 rue François Ory à Montrouge | Paris</h2>
+        <h2>MOA : Fifus-Voie 15</h2>
+        <h2>Architecte : Neufville-Gayet Architectes</h2>
+        <h2>MO / OPC : MAD design</h2>
+        <h2>
+          Mission : Direction et suivi des travaux de transformation de
+          l'ancienne gare d'acheminement des marchandises de Vaugirard (XVIIIe
+          siècle), en un espace de coworking. Chaque étape de la rénovation a
+          été minutieusement supervisée pour préserver le charme historique,
+          tout en intégrant des éléments techniques nécessaire au fonctionnement
+          d’un bâtiment contemporains.
+        </h2>
+      </>
+    ),
+    mainImage: vaugirardImg,
+    images: [
+      {
+        name: "vaugirard-1",
+        url: "../images/vaugirard/vaugirard-1.jpg",
+      },
+      {
+        name: "vaugirard-2",
+        url: "../images/vaugirard/vaugirard-2.jpg",
+      },
+      {
+        name: "vaugirard-3",
+        url: "../images/vaugirard/vaugirard-3.jpg",
+      },
+      {
+        name: "vaugirard-4",
+        url: "../images/vaugirard/vaugirard-4.jpg",
+      },
+      {
+        name: "vaugirard-5",
+        url: "../images/vaugirard/vaugirard-5.jpg",
+      },
+      {
+        name: "vaugirard-6",
+        url: "../images/vaugirard/vaugirard-6.jpg",
+      },
+      {
+        name: "vaugirard-7",
+        url: "../images/vaugirard/vaugirard-7.jpg",
+      },
+    ],
   },
   {
     categoryId: "office",
     name: "chelles",
-    title: <p>Chelles Cabinet Dentaire |</p>,
-    content: <p>Ceci est la description du projet</p>,
+    title: <p>Cabinet dentaire | Chelles</p>,
+    content: (
+      <>
+        {/* <h2>Espace de coworking et café associatif</h2> */}
+        <h2>61 Avenue de la résistance | Chelles</h2>
+        <h2>MOA : SCM TRISMUS</h2>
+        <h2>Architecte : Neufville-Gayet Architectes</h2>
+        <h2>Architecte d'Intérieur / MO / OPC : MAD design</h2>
+        <h2>
+          Mission : Création d’un cabinet dentaire avec cabinet d’urgence, salle
+          de soin et radio. Elaboration des plans techniques et suivi de
+          chantier.
+        </h2>
+      </>
+    ),
     mainImage: chellesImg,
+    images: [
+      {
+        name: "chelles-1",
+        url: "../images/chelles/chelles-1.jpg",
+      },
+      {
+        name: "chelles-2",
+        url: "../images/chelles/chelles-2.jpg",
+      },
+      {
+        name: "chelles-3",
+        url: "../images/chelles/chelles-3.jpg",
+      },
+      {
+        name: "chelles-4",
+        url: "../images/chelles/chelles-4.jpg",
+      },
+    ],
   },
   {
     categoryId: "office",
     name: "vocalcom",
-    title: <p>Vocalcom |</p>,
-    content: <p>Ceci est la description du projet</p>,
+    title: <p>Vocalcom | Paris</p>,
+    content: (
+      <>
+        <h2>Bureaux</h2>
+        <h2>25 rue de Balzac | Paris</h2>
+        <h2>MOA : Vocalcom</h2>
+        <h2>Architecte d'Intérieur / OPC : MAD design</h2>
+        <h2>
+          Mission : Reprise, création et optimisation de plateau de bureau,
+          accueil, cafétéria. Gestion des réseaux techniques, téléphonique et
+          informatique. Phasage travaux suivant travail des équipes et
+          déménagement des bureaux.
+        </h2>
+      </>
+    ),
     mainImage: vocalcomImg,
+    images: [
+      {
+        name: "vocalcom-1",
+        url: "../images/vocalcom/vocalcom-1.jpg",
+      },
+      {
+        name: "vocalcom-2",
+        url: "../images/vocalcom/vocalcom-2.jpg",
+      },
+      {
+        name: "vocalcom-3",
+        url: "../images/vocalcom/vocalcom-3.jpg",
+      },
+      {
+        name: "vocalcom-4",
+        url: "../images/vocalcom/vocalcom-4.jpg",
+      },
+      {
+        name: "vocalcom-5",
+        url: "../images/vocalcom/vocalcom-5.jpg",
+      },
+    ],
   },
 ];
 
