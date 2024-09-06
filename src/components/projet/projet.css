@@ -77,17 +77,22 @@
     justify-content: center;
     width: 100%;
     gap: 1% 4%;
+    padding-right: 3%;
   }
 }
 
 @media (max-width: 600px) {
   #nav-projet {
-    padding-left: 0vw;
+    padding-left: 1vw;
     width: 80vw;
     height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .thumb p {
+    font-size: 0.7rem;
   }
 }

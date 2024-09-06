@@ -42,6 +42,7 @@ const projetContent = [
         <h2>MOA : PARIS SOCIETY</h2>
         <h2>Architecte : Hugo Toro</h2>
         <h2>MO / OPC : MAD design</h2>
+        <br />
         <h2>
           Mission : Rénovation complète du restaurant Gigi, ancienne adresse
           mythique Maison Blanche sur le toit du théâtre des Champs Elysées
@@ -75,6 +76,7 @@ const projetContent = [
         <h2>MOA : PARIS SOCIETY</h2>
         <h2>Architecte : Friedmann & Versace </h2>
         <h2>MO / OPC : MAD design </h2>
+        <br />
         <h2>
           Mission : Création complète d’un restaurant au sein du musée du Palais
           de Tokyo, avec terrasse extérieure sur l’esplanade de la fontaine du
@@ -109,7 +111,7 @@ const projetContent = [
   {
     categoryId: "restaurant",
     name: "sofitel",
-    title: "MGallery Nest Sofitel | Paris",
+    title: "MGallery Sofitel | Paris",
     content: (
       <>
         <h2>Rénovation Espace d’Accueil, Restaurant, Circulations</h2>
@@ -117,6 +119,7 @@ const projetContent = [
         <h2>MOA: Groupe Accor</h2>
         <h2>Architecte d’intérieur : Maison Numéro 20</h2>
         <h2>MO d’exécution : MAD design </h2>
+        <br />
         <h2>
           Mission : Direction des travaux, suivi de projet tout corps d’état du
           Lobby-Restaurant
@@ -166,6 +169,7 @@ const projetContent = [
         <h2>MOA : Privé</h2>
         {/* <h2>Architecte : Hugo Toro</h2> */}
         <h2>Architecte d'intérieur / MO / OPC : MAD design</h2>
+        <br />
         <h2>
           Mission : Reprise du club mythique des années 80 : Rénovation complète
           du bar, restaurant, rooftop.
@@ -207,6 +211,7 @@ const projetContent = [
         <h2>MOA : PANEM & CIRCENSES GROUP </h2>
         <h2>Architecte : Claves Architecture </h2>
         <h2>MO / OPC : MAD design</h2>
+        <br />
         <h2>
           Mission : Direction des travaux pour l'aménagement de Cornichon, un
           restaurant inspiré des bars tabac des années 80. Ce projet recrée avec
@@ -254,6 +259,7 @@ const projetContent = [
         <h2>MOA : PARIS SOCIETY</h2>
         <h2>Architecte : Laleh Amir Assefi</h2>
         <h2>MO / OPC : MAD design</h2>
+        <br />
         <h2>
           Mission : Direction des travaux, suivi de projet tout corps d’état du
           restaurant, des salons privés ainsi que de la terrasse de la cour
@@ -288,6 +294,7 @@ const projetContent = [
         <h2>MOA : PARIS SOCIETY</h2>
         <h2>Architecte : Hugo Toro</h2>
         <h2>MO / OPC : MAD design</h2>
+        <br />
         <h2>
           Mission : Direction des travaux du restaurant situé sur le toit du
           Printemps, boulevard Haussmann. Travaux comprenant grutage, horaires
@@ -334,6 +341,7 @@ const projetContent = [
         <h2>MOA : SAS Maitre du Terroir</h2>
         <h2>Architecte : Cut Architecture</h2>
         <h2>MO / OPC : MAD design</h2>
+        <br />
         <h2>
           Mission : Direction des travaux d’un espace café restauration sous la
           coupole des Galerie Lafayette. Suivi du projet avec le centre
@@ -385,6 +393,7 @@ const projetContent = [
         <h2>MOA : Maxime et Marcel MAISONOBE</h2>
         {/* <h2>Architecte : Cut Architecture</h2> */}
         <h2>Architecte d’intérieur : MAD design </h2>
+        <br />
         <h2>
           Mission : Conception, Rénovation et agrandissement d’un bistro
           parisien existant
@@ -422,6 +431,7 @@ const projetContent = [
         <h2>MOA : Pierre Rieder et Maxime Mérienne</h2>
         {/* <h2>Architecte : Cut Architecture</h2> */}
         <h2>Architecte d’intérieur / MO : MAD design </h2>
+        <br />
         <h2>
           Mission : Conception d’un restaurant bistronomique, suivi des travaux
           en tout corps d’etat.

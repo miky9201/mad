@@ -10,7 +10,7 @@
   /* background-color: cadetblue; */
   display: flex;
   flex-direction: column;
-  width: 92%;
+  width: 100%;
 }
 
 .projet-name-content > h2 {
@@ -19,6 +19,7 @@
   font-size: 0.9rem;
   line-height: 1.6em;
   text-align: left;
+  padding-right: 30%;
 }
 
 .projet-name-content > img {
@@ -49,7 +50,22 @@
   aspect-ratio: 1/1;
 }
 
+@media (max-width: 1000px) {
+  .projet-name-content > h2:last-of-type {
+    margin-bottom: 10%; /* Ajustez la valeur selon l'espace souhaité */
+  }
+  .projet-name-content > h2 {
+    padding-right: 5%;
+  }
+}
+
 @media (max-width: 600px) {
+  .return-container > p,
+  .projet-name-content > h2,
+  #section > div > div > p {
+    font-size: 0.7rem;
+  }
+
   #nav-projet {
     padding-left: 0vw;
     width: 80vw;
@@ -64,7 +80,7 @@
     position: fixed;
     right: 0%;
     bottom: 5%;
-    width: 15%;
+    width: 9%;
     height: 5%;
   }
 

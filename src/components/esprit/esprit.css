@@ -37,5 +37,6 @@
 @media (max-width: 600px) {
   .esprit-content {
     width: 100%;
+    padding-right: 5%;
   }
 }

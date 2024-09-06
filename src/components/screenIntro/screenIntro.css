@@ -2,23 +2,39 @@
   z-index: 2;
   position: absolute;
   top: 0;
-  height: 100vh;
+  left: 0;
+  height: 100vh; /* Hauteur relative */
   width: 100vw;
   background-color: #e84d1a;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Safari Mobile spécifique */
+@supports (-webkit-touch-callout: none) {
+  #intro {
+    height: -webkit-fill-available;
+  }
 }
 
 #intro img {
   width: 25vw;
+  min-width: 200px; /* Limite la taille maximale de l'image sur les petits écrans */
 }
 
+/* Transition avec préfixes pour compatibilité */
 .fading-component {
+  -webkit-transition: transform 0.33s ease-in-out;
+  -moz-transition: transform 0.33s ease-in-out;
+  -o-transition: transform 0.33s ease-in-out;
   transition: transform 0.33s ease-in-out;
 }
 
+/* Animation d'entrée et de sortie */
 .fade-in {
   transform: translateY(0%);
 }
