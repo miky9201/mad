@@ -50,7 +50,7 @@ function ProjetModal({ windowWidth, selectedProjet }) {
       )}
       <div className="projet-name-content">
         {selectedProjet.content}
-        {selectedProjet.images.map((image, index) => (
+        {selectedProjet?.images?.map((image, index) => (
           <img
             key={index}
             width={windowWidth < 1000 ? "95%" : "70%"}

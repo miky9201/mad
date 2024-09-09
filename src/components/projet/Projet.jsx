@@ -33,7 +33,7 @@ function Projet({ windowWidth, setSelectedProjet }) {
       {windowWidth > 600 ? (
         <Aside>
           <div id="nav-projet">
-            {projetsNav.map((projet, index) => (
+            {projetsNav?.map((projet, index) => (
               <p
                 className={index === 0 ? "focus" : null}
                 tabIndex="0"
@@ -51,7 +51,7 @@ function Projet({ windowWidth, setSelectedProjet }) {
       <h1>NOS PROJETS |</h1>
       {windowWidth < 600 && (
         <div id="nav-projet">
-          {projetsNav.map((projet, index) => (
+          {projetsNav?.map((projet, index) => (
             <p
               className={index === 0 ? "focus" : null}
               tabIndex="0"
@@ -64,13 +64,14 @@ function Projet({ windowWidth, setSelectedProjet }) {
         </div>
       )}
       <div className="projet-content">
-        {filteredProjetContent.map((projet) => (
+        {filteredProjetContent?.map((projet) => (
           <React.Fragment key={projet.name}>
             <Link to={`/projet/${projet.name}`}>
               <ProjetType
                 navChoice={navChoice}
                 projetContent={projet}
                 setSelectedProjet={setSelectedProjet}
+                identification={projet.identification}
               />
             </Link>
           </React.Fragment>

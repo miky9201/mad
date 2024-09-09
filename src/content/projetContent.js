@@ -32,6 +32,7 @@ import vocalcomImg from "../assets/images/main/vocalcom-1.jpg";
 
 const projetContent = [
   {
+    identification: 1,
     categoryId: "restaurant",
     name: "gigi",
     title: "Gigi | Paris",
@@ -66,6 +67,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 2,
     categoryId: "restaurant",
     name: "bambini",
     title: "Bambini | Paris",
@@ -109,6 +111,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 3,
     categoryId: "restaurant",
     name: "sofitel",
     title: "MGallery Sofitel | Paris",
@@ -159,6 +162,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 4,
     categoryId: "restaurant",
     name: "montana",
     title: "Le Montana | Paris",
@@ -201,6 +205,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 5,
     categoryId: "restaurant",
     name: "cornichon",
     title: "Cornichon | Paris",
@@ -249,6 +254,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 6,
     categoryId: "restaurant",
     name: "maison-revka",
     title: "Maison Revka / Maison Russe | Paris",
@@ -284,6 +290,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 7,
     categoryId: "restaurant",
     name: "perruche",
     title: "Le Perruche | Paris",
@@ -331,6 +338,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 8,
     categoryId: "restaurant",
     name: "coutume",
     title: "Café Coutume - Galeries Lafayette | Paris",
@@ -383,6 +391,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 9,
     categoryId: "restaurant",
     name: "cadet",
     title: "Le Petit Cadet | Paris",
@@ -421,6 +430,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 10,
     categoryId: "restaurant",
     name: "clutch",
     title: "Le Clutch | Paris",
@@ -504,6 +514,7 @@ const projetContent = [
   //   ],
   // },
   {
+    identification: 11,
     categoryId: "club",
     name: "phantom",
     title: "Phantom | Paris",
@@ -560,6 +571,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 12,
     categoryId: "club",
     name: "terminal",
     title: <p>Terminal 7 | Paris</p>,
@@ -614,6 +626,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 13,
     categoryId: "club",
     name: "haussmann",
     title: <p>Club Haussmann | Paris</p>,
@@ -664,6 +677,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 14,
     categoryId: "evenementiel",
     name: "usopf",
     title: <p>USOPF Team USA | Paris</p>,
@@ -716,6 +730,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 15,
     categoryId: "evenementiel",
     name: "adidas",
     title: <p>Adidas Arena | Paris</p>,
@@ -753,6 +768,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 16,
     categoryId: "evenementiel",
     name: "alpine",
     title: <p>Alpine | Paris</p>,
@@ -795,6 +811,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 17,
     categoryId: "evenementiel",
     name: "longchamp",
     title: (
@@ -846,6 +863,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 18,
     categoryId: "evenementiel",
     name: "entreprise",
     title: <p>Entreprise Privée | Paris</p>,
@@ -885,6 +903,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 19,
     categoryId: "evenementiel",
     name: "melba",
     title: <p>Melba | Paris</p>,
@@ -925,6 +944,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 20,
     categoryId: "retail",
     name: "burberry",
     title: <p>Burberry | Paris</p>,
@@ -963,6 +983,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 21,
     categoryId: "retail",
     name: "zadig",
     title: <p>Zadig et Voltaire | Europe</p>,
@@ -1036,6 +1057,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 22,
     categoryId: "retail",
     name: "jimmy",
     title: <p>Jimmy Choo | Paris</p>,
@@ -1081,6 +1103,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 23,
     categoryId: "retail",
     name: "mackage",
     title: <p>Mackage | Paris</p>,
@@ -1114,6 +1137,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 24,
     categoryId: "residentiel",
     name: "saint-germain",
     title: <p>Bd Saint-Germain | Paris</p>,
@@ -1151,6 +1175,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 25,
     categoryId: "residentiel",
     name: "paris-9",
     title: <p>Appartement 9ème | Paris</p>,
@@ -1183,6 +1208,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 26,
     categoryId: "residentiel",
     name: "raspail",
     title: <p>Appartement Raspail | Paris</p>,
@@ -1224,6 +1250,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 27,
     categoryId: "residentiel",
     name: "lepic",
     title: <p>Appartement Rue Lepic | Paris</p>,
@@ -1261,6 +1288,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 28,
     categoryId: "residentiel",
     name: "botta",
     title: <p>Appartement Regis Botta | Paris</p>,
@@ -1298,6 +1326,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 29,
     categoryId: "office",
     name: "vaugirard",
     title: <p>Gare Vaugirard | Paris</p>,
@@ -1351,6 +1380,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 30,
     categoryId: "office",
     name: "chelles",
     title: <p>Cabinet dentaire | Chelles</p>,
@@ -1389,6 +1419,7 @@ const projetContent = [
     ],
   },
   {
+    identification: 31,
     categoryId: "office",
     name: "vocalcom",
     title: <p>Vocalcom | Paris</p>,

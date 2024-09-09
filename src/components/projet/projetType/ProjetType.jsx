@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-function ProjetType({ projetContent, setSelectedProjet }) {
+function ProjetType({ projetContent, setSelectedProjet, identification }) {
   useEffect(() => {
     // Scroll vers le haut quand le composant est monté
     window.scrollTo(0, 0);
@@ -8,6 +8,7 @@ function ProjetType({ projetContent, setSelectedProjet }) {
 
   const handleClick = () => {
     setSelectedProjet(projetContent);
+    localStorage.setItem("projetContent", JSON.stringify(identification));
   };
   return (
     <div className="thumb" onClick={handleClick}>

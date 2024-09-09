@@ -9,6 +9,8 @@ import ProjetModal from "../projetModal/ProjetModal.jsx";
 
 import { Routes, Route, useLocation } from "react-router-dom";
 
+import projetContent from "../../content/projetContent.js";
+
 function Section() {
   const location = useLocation();
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -17,6 +19,13 @@ function Section() {
   useEffect(() => {
     window.scrollTo(0, 0);
     const handleResize = () => setWindowWidth(window.innerWidth);
+
+    if (typeof window !== "undefined") {
+      const savedProjet = window.localStorage.getItem("projetContent");
+      const initial = savedProjet !== null ? JSON.parse(savedProjet) : {};
+      const currentProjet = projetContent[initial - 1];
+      setSelectedProjet(currentProjet);
+    }
 
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
