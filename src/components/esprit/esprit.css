@@ -20,8 +20,8 @@
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     width: 94%;
-    gap: 1% 4%;
-    margin-bottom: 20%;
+    gap: 0% 4%;
+    margin-bottom: 60%;
   }
 
   .esprit-content div {
