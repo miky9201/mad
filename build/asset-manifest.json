@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e8aa6e10.css",
-    "main.js": "/static/js/main.f4c72bbc.js",
+    "main.css": "/static/css/main.8aeb2de7.css",
+    "main.js": "/static/js/main.bf4457c6.js",
     "static/js/453.91408376.chunk.js": "/static/js/453.91408376.chunk.js",
     "static/media/perruche-1.jpg": "/static/media/perruche-1.b399ae215edc32854f18.jpg",
     "static/media/vocalcom-1.jpg": "/static/media/vocalcom-1.35d0b0fabe1d5dab81e0.jpg",
@@ -38,12 +38,12 @@
     "static/media/terminal-1.jpg": "/static/media/terminal-1.8e3a83a8b554640e31a8.jpg",
     "static/media/logo.png": "/static/media/logo.a99afc724c87073a70bd.png",
     "index.html": "/index.html",
-    "main.e8aa6e10.css.map": "/static/css/main.e8aa6e10.css.map",
-    "main.f4c72bbc.js.map": "/static/js/main.f4c72bbc.js.map",
+    "main.8aeb2de7.css.map": "/static/css/main.8aeb2de7.css.map",
+    "main.bf4457c6.js.map": "/static/js/main.bf4457c6.js.map",
     "453.91408376.chunk.js.map": "/static/js/453.91408376.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8aa6e10.css",
-    "static/js/main.f4c72bbc.js"
+    "static/css/main.8aeb2de7.css",
+    "static/js/main.bf4457c6.js"
   ]
 }
