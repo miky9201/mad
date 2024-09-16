@@ -37,6 +37,7 @@ function Section() {
 
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Agence windowWidth={windowWidth} />} />
+        <Route path="/agence" element={<Agence windowWidth={windowWidth} />} />
         <Route
           path="/missions"
           element={<Missions windowWidth={windowWidth} />}

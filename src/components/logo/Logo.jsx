@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 function Logo() {
   return (
-    <Link to="/">
-      <img  id="logo" src={logo} alt="logo-mad" />
+    <Link to="/agence">
+      <img id="logo" src={logo} alt="logo-mad" />
     </Link>
   );
 }

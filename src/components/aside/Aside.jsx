@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Aside({ children }) {
   return (
     <aside className="aside">
-      <Link to="/">
+      <Link to="/agence">
         <img src={logo} alt="logo-mad" />
       </Link>
       {children}

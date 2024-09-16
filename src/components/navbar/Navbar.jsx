@@ -25,7 +25,7 @@ function Navbar() {
         </div>
         <div className="inner-nav">
           <div className="nav-items" onClick={handleNavElements}>
-            <Link to="/">
+            <Link to="/agence">
               <h1>AGENCE |</h1>
             </Link>
             <Link to="/projet">
