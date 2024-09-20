@@ -15,6 +15,7 @@ function Section() {
   const location = useLocation();
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [selectedProjet, setSelectedProjet] = useState({});
+  const [navChoice, setNavChoice] = useState(0);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -49,6 +50,8 @@ function Section() {
             <Projet
               windowWidth={windowWidth}
               setSelectedProjet={setSelectedProjet}
+              navChoice={navChoice}
+              setNavChoice={setNavChoice}
             />
           }
         />

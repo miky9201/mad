@@ -9,15 +9,12 @@ import { Link } from "react-router-dom";
 
 function ProjetModal({ windowWidth, selectedProjet }) {
   // const { projectName } = useParams();
-
+  console.log(selectedProjet);
   useEffect(() => {
     // Scroll vers le haut quand le composant est monté
     window.scrollTo(0, 0);
   }, []);
 
-  const handleClick = () => {
-    console.log("clicked");
-  };
   return (
     <div>
       {windowWidth > 600 ? (
@@ -39,7 +36,7 @@ function ProjetModal({ windowWidth, selectedProjet }) {
       <h1>{selectedProjet.title}</h1>
       {windowWidth < 600 && (
         <Link to="/projet">
-          <div className="return-container" onClick={handleClick}>
+          <div className="return-container">
             <div className="return">
               <IconContext.Provider value={{ color: "black", size: "100%" }}>
                 <IoIosArrowRoundBack />

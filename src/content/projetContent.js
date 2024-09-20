@@ -35,7 +35,11 @@ const projetContent = [
     identification: 1,
     categoryId: "restaurant",
     name: "gigi",
-    title: "Gigi | Paris",
+    title: (
+      <p>
+        Gigi |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Aménagement Restaurant</h2>
@@ -70,7 +74,11 @@ const projetContent = [
     identification: 2,
     categoryId: "restaurant",
     name: "bambini",
-    title: "Bambini | Paris",
+    title: (
+      <p>
+        Bambini |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Aménagement Restaurant</h2>
@@ -114,7 +122,11 @@ const projetContent = [
     identification: 3,
     categoryId: "restaurant",
     name: "sofitel",
-    title: "MGallery Sofitel | Paris",
+    title: (
+      <p>
+        MGallery Sofitel |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Rénovation Espace d’Accueil, Restaurant, Circulations</h2>
@@ -165,7 +177,11 @@ const projetContent = [
     identification: 4,
     categoryId: "restaurant",
     name: "montana",
-    title: "Le Montana | Paris",
+    title: (
+      <p>
+        Le Montana |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Rénovation Restaurant</h2>
@@ -208,7 +224,11 @@ const projetContent = [
     identification: 5,
     categoryId: "restaurant",
     name: "cornichon",
-    title: "Cornichon | Paris",
+    title: (
+      <p>
+        Cornichon |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Aménagement Restaurant</h2>
@@ -257,7 +277,11 @@ const projetContent = [
     identification: 6,
     categoryId: "restaurant",
     name: "maison-revka",
-    title: "Maison Revka / Maison Russe | Paris",
+    title: (
+      <p>
+        Maison Revka |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Rénovation Restaurant</h2>
@@ -293,7 +317,11 @@ const projetContent = [
     identification: 7,
     categoryId: "restaurant",
     name: "perruche",
-    title: "Le Perruche | Paris",
+    title: (
+      <p>
+        Le Perruche |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Aménagement Restaurant sur le toit du Printemps</h2>
@@ -341,7 +369,12 @@ const projetContent = [
     identification: 8,
     categoryId: "restaurant",
     name: "coutume",
-    title: "Café Coutume - Galeries Lafayette | Paris",
+    title: (
+      <p>
+        Café Coutume |
+        <br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Aménagement du Café des Galerie Lafayette Paris</h2>
@@ -394,7 +427,11 @@ const projetContent = [
     identification: 9,
     categoryId: "restaurant",
     name: "cadet",
-    title: "Le Petit Cadet | Paris",
+    title: (
+      <p>
+        Le Petit Cadet |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Réhabilitation, Extension, Aménagement restaurant</h2>
@@ -433,7 +470,11 @@ const projetContent = [
     identification: 10,
     categoryId: "restaurant",
     name: "clutch",
-    title: "Le Clutch | Paris",
+    title: (
+      <p>
+        Le Clutch |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Réalisation Restaurant</h2>
@@ -517,7 +558,11 @@ const projetContent = [
     identification: 11,
     categoryId: "club",
     name: "phantom",
-    title: "Phantom | Paris",
+    title: (
+      <p>
+        Phantom |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Club</h2>
@@ -525,6 +570,7 @@ const projetContent = [
         <h2>MOA : PARIS SOCIETY </h2>
         {/* <h2>Architecte : Cut Architecture</h2> */}
         <h2>Architecte d’intérieur / MO / OPC : MAD design </h2>
+        <br />
         <h2>
           Mission : Conception de la plus grande scene de musique electronique à
           Paris. Travail sur la scénographie – l’architecture des différents
@@ -574,7 +620,11 @@ const projetContent = [
     identification: 12,
     categoryId: "club",
     name: "terminal",
-    title: <p>Terminal 7 | Paris</p>,
+    title: (
+      <p>
+        Terminal 7 |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Club</h2>
@@ -582,6 +632,7 @@ const projetContent = [
         <h2>MOA : PARIS SOCIETY </h2>
         {/* <h2>Architecte : Cut Architecture</h2> */}
         <h2>Architecte d’intérieur / MO / OPC : MAD design </h2>
+        <br />
         <h2>
           Mission : Direction des travaux du Club du Parc des expositions -
           Porte de Versailles. Suivi du projet architectural, respect du timing
@@ -629,7 +680,12 @@ const projetContent = [
     identification: 13,
     categoryId: "club",
     name: "haussmann",
-    title: <p>Club Haussmann | Paris</p>,
+    title: (
+      <p>
+        Club Haussmann | <br />
+        Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Club</h2>
@@ -637,6 +693,7 @@ const projetContent = [
         <h2>MOA : PARIS SOCIETY </h2>
         {/* <h2>Architecte : Cut Architecture</h2> */}
         <h2>Architecte d’intérieur / MO / OPC : MAD design </h2>
+        <br />
         <h2>
           Mission : Direction des travaux du Club du Parc des expositions -
           Porte de Versailles. Suivi du projet architectural, respect du timing
@@ -680,7 +737,11 @@ const projetContent = [
     identification: 14,
     categoryId: "evenementiel",
     name: "usopf",
-    title: <p>USOPF Team USA | Paris</p>,
+    title: (
+      <p>
+        USOPF Team USA |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Salons d’accueil</h2>
@@ -688,6 +749,7 @@ const projetContent = [
         <h2>MOA : On Location (organisateur principal des JO de Paris 2024)</h2>
         {/* <h2>Architecte : Cut Architecture</h2> */}
         <h2>Architecte d’intérieur / MO : MAD design </h2>
+        <br />
         <h2>
           Mission : Conception des salons d'accueil pour les familles d’athlètes
           de la Team USA durant les Jeux Olympiques, au sein des hôtels 5* Le
@@ -733,7 +795,11 @@ const projetContent = [
     identification: 15,
     categoryId: "evenementiel",
     name: "adidas",
-    title: <p>Adidas Arena | Paris</p>,
+    title: (
+      <p>
+        Adidas Arena |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Arena - Stade couvert </h2>
@@ -741,6 +807,7 @@ const projetContent = [
         <h2>MOA : Groupe Accor</h2>
         {/* <h2>Architecte : Cut Architecture</h2> */}
         <h2>OPC : MAD design </h2>
+        <br />
         <h2>
           Mission : Suivi des travaux et pose de la signalétique de la salle
           polyvalente (extérieur et intérieur)
@@ -771,7 +838,11 @@ const projetContent = [
     identification: 16,
     categoryId: "evenementiel",
     name: "alpine",
-    title: <p>Alpine | Paris</p>,
+    title: (
+      <p>
+        Alpine |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Espace Muséographique</h2>
@@ -779,6 +850,7 @@ const projetContent = [
         <h2>MOA : PARIS SOCIETY</h2>
         {/* <h2>Architecte : Cut Architecture</h2> */}
         <h2>Architecte scénographe / MO : MAD design </h2>
+        <br />
         <h2>
           Mission : Elaboration de l'exposition Alpine à Paris, dédiée à la
           présentation de voitures de la marque. Mise en scène des véhicules au
@@ -816,7 +888,7 @@ const projetContent = [
     name: "longchamp",
     title: (
       <p>
-        Hippodrome Paris Longchamp <br /> (Le Petit Pré) | Paris
+        Le Petit Pré |<br /> Paris
       </p>
     ),
     content: (
@@ -826,6 +898,7 @@ const projetContent = [
         <h2>MOA : PARIS SOCIETY</h2>
         {/* <h2>Architecte : Cut Architecture</h2> */}
         <h2>Architecte scénographe / MO : MAD design </h2>
+        <br />
         <h2>
           Mission : Création d’un espace de restauration et de détente au cœur
           de l'Hippodrome de Longchamp. Aménagement de bars, de zones de jeux,
@@ -866,7 +939,11 @@ const projetContent = [
     identification: 18,
     categoryId: "evenementiel",
     name: "entreprise",
-    title: <p>Entreprise Privée | Paris</p>,
+    title: (
+      <p>
+        Entreprise Privée |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Espace Événementiel JO 2024</h2>
@@ -874,6 +951,7 @@ const projetContent = [
         <h2>MOA : On Location (organisateur principal des JO de Paris 2024)</h2>
         {/* <h2>Architecte : Cut Architecture</h2> */}
         <h2>Architecte d'Intérieur : MAD design </h2>
+        <br />
         <h2>
           Mission : Conception d’espaces de réception pour une entreprise
           internationale s’installant au Pavillon de l’Elysée pour les Jeux
@@ -906,7 +984,11 @@ const projetContent = [
     identification: 19,
     categoryId: "evenementiel",
     name: "melba",
-    title: <p>Melba | Paris</p>,
+    title: (
+      <p>
+        Melba |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Peniche Restaurant </h2>
@@ -914,6 +996,7 @@ const projetContent = [
         <h2>MOA : PARIS SOCIETY</h2>
         {/* <h2>Architecte : Cut Architecture</h2> */}
         <h2>Architecte d'Intérieur / MO : MAD design </h2>
+        <br />
         <h2>
           Mission : Conception et suivi des travaux du projet Melba, Vaporetto
           vénitien des années 30, transformé en un espace évènementiel. Péniche
@@ -947,7 +1030,11 @@ const projetContent = [
     identification: 20,
     categoryId: "retail",
     name: "burberry",
-    title: <p>Burberry | Paris</p>,
+    title: (
+      <p>
+        Burberry |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Réalisation Boutique de Luxe</h2>
@@ -955,6 +1042,7 @@ const projetContent = [
         <h2>MOA : BURBERRY France</h2>
         <h2>Architecte : BURBERRY</h2>
         <h2>MO / OPC : MAD design </h2>
+        <br />
         <h2>
           Mission : Gestion des travaux en tout corps d’état – travail combiné
           avec les Galeries Lafayette, phasage travaux suivant accueil du public
@@ -986,7 +1074,11 @@ const projetContent = [
     identification: 21,
     categoryId: "retail",
     name: "zadig",
-    title: <p>Zadig et Voltaire | Europe</p>,
+    title: (
+      <p>
+        Zadig et Voltaire |<br /> Europe
+      </p>
+    ),
     content: (
       <>
         <h2>Réalisation Boutiques et Corners Haut de Gamme</h2>
@@ -997,6 +1089,7 @@ const projetContent = [
         <h2>MOA : Zadig & Voltaire</h2>
         <h2>Architecte : Zadig & Voltaire</h2>
         <h2>MO / OPC : MAD design </h2>
+        <br />
         <h2>
           Mission : Rénovation des boutiques et corners dans les centres
           commerciaux et villages de marque, à travers l’Europe – Dessins
@@ -1060,7 +1153,11 @@ const projetContent = [
     identification: 22,
     categoryId: "retail",
     name: "jimmy",
-    title: <p>Jimmy Choo | Paris</p>,
+    title: (
+      <p>
+        Jimmy Choo |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Réalisation Boutique de Luxe</h2>
@@ -1068,6 +1165,7 @@ const projetContent = [
         <h2>MOA : Jimmy CHOO</h2>
         <h2>Architecte : Jimmy CHOO</h2>
         <h2>MO / OPC : MAD design </h2>
+        <br />
         <h2>
           Mission : Direction des travaux, suivi de projet tout corps d’état de
           la boutique ainsi que du back office.
@@ -1106,13 +1204,18 @@ const projetContent = [
     identification: 23,
     categoryId: "retail",
     name: "mackage",
-    title: <p>Mackage | Paris</p>,
+    title: (
+      <p>
+        Mackage |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Réalisation Boutique Haut de Gamme</h2>
         <h2>Rue St-Honoré | Paris</h2>
         <h2>MOA : MACKAGE</h2>
         <h2>Architecte : Burdifilek</h2>
+        <br />
         <h2>Mission : Réhabilitation complète d’une boutique sur 2 niveaux</h2>
       </>
     ),
@@ -1140,7 +1243,11 @@ const projetContent = [
     identification: 24,
     categoryId: "residentiel",
     name: "saint-germain",
-    title: <p>Bd Saint-Germain | Paris</p>,
+    title: (
+      <p>
+        Bd Saint-Germain |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Rénovation d’un appartement</h2>
@@ -1148,6 +1255,7 @@ const projetContent = [
         <h2>MOA : Client Privé</h2>
         <h2>Architecte d'intérieur : Peggy Bels</h2>
         <h2>MO / OPC : MAD Design</h2>
+        <br />
         <h2>
           Mission : Rénovation complète appartement haussmannien, travaux tout
           corps d’état.
@@ -1178,13 +1286,18 @@ const projetContent = [
     identification: 25,
     categoryId: "residentiel",
     name: "paris-9",
-    title: <p>Appartement 9ème | Paris</p>,
+    title: (
+      <p>
+        Appartement 9ème |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Rénovation d’un appartement</h2>
         <h2>Quartier Saint Georges | Paris</h2>
         <h2>MOA : Client Privé</h2>
         <h2>Architecte intérieur / MO / OPC : MAD design</h2>
+        <br />
         <h2>
           Mission : Conception et suivi de travaux appartement haussmannien,
           travaux tout corps d’état.
@@ -1211,7 +1324,11 @@ const projetContent = [
     identification: 26,
     categoryId: "residentiel",
     name: "raspail",
-    title: <p>Appartement Raspail | Paris</p>,
+    title: (
+      <p>
+        Appartement Raspail |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Rénovation d’un appartement</h2>
@@ -1219,6 +1336,7 @@ const projetContent = [
         <h2>MOA : Client Privé</h2>
         <h2>Architecte : Cut Architecture</h2>
         <h2>MO / OPC : MAD design</h2>
+        <br />
         <h2>
           Mission : Direction des travaux tout corps d’état de l’appartement –
           lots techniques ainsi que lots de second œuvre.
@@ -1253,7 +1371,11 @@ const projetContent = [
     identification: 27,
     categoryId: "residentiel",
     name: "lepic",
-    title: <p>Appartement Rue Lepic | Paris</p>,
+    title: (
+      <p>
+        Appartement Rue Lepic |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Rénovation d’un appartement</h2>
@@ -1261,6 +1383,7 @@ const projetContent = [
         <h2>MOA : Client Privé</h2>
         <h2>Architecte : BL</h2>
         <h2>MO / OPC : MAD design</h2>
+        <br />
         <h2>
           Mission : Direction des travaux tout corps d’état de l’appartement –
           lots techniques ainsi que lots de second œuvre.
@@ -1291,7 +1414,11 @@ const projetContent = [
     identification: 28,
     categoryId: "residentiel",
     name: "botta",
-    title: <p>Appartement Regis Botta | Paris</p>,
+    title: (
+      <p>
+        Appartement Regis Botta |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Rénovation d’un appartement</h2>
@@ -1299,6 +1426,7 @@ const projetContent = [
         <h2>MOA : Client Privé</h2>
         <h2>Architecte : Regis Botta</h2>
         <h2>MO / OPC : MAD design</h2>
+        <br />
         <h2>
           Mission : Direction des travaux tout corps d’état de l’appartement –
           lots techniques ainsi que lots de second œuvre.
@@ -1329,7 +1457,11 @@ const projetContent = [
     identification: 29,
     categoryId: "office",
     name: "vaugirard",
-    title: <p>Gare Vaugirard | Paris</p>,
+    title: (
+      <p>
+        Gare Vaugirard |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Espace de coworking et café associatif</h2>
@@ -1337,6 +1469,7 @@ const projetContent = [
         <h2>MOA : Fifus-Voie 15</h2>
         <h2>Architecte : Neufville-Gayet Architectes</h2>
         <h2>MO / OPC : MAD design</h2>
+        <br />
         <h2>
           Mission : Direction et suivi des travaux de transformation de
           l'ancienne gare d'acheminement des marchandises de Vaugirard (XVIIIe
@@ -1383,7 +1516,11 @@ const projetContent = [
     identification: 30,
     categoryId: "office",
     name: "chelles",
-    title: <p>Cabinet dentaire | Chelles</p>,
+    title: (
+      <p>
+        Cabinet dentaire |<br /> Chelles
+      </p>
+    ),
     content: (
       <>
         {/* <h2>Espace de coworking et café associatif</h2> */}
@@ -1391,6 +1528,7 @@ const projetContent = [
         <h2>MOA : SCM TRISMUS</h2>
         <h2>Architecte : Neufville-Gayet Architectes</h2>
         <h2>Architecte d'Intérieur / MO / OPC : MAD design</h2>
+        <br />
         <h2>
           Mission : Création d’un cabinet dentaire avec cabinet d’urgence, salle
           de soin et radio. Elaboration des plans techniques et suivi de
@@ -1422,13 +1560,18 @@ const projetContent = [
     identification: 31,
     categoryId: "office",
     name: "vocalcom",
-    title: <p>Vocalcom | Paris</p>,
+    title: (
+      <p>
+        Vocalcom |<br /> Paris
+      </p>
+    ),
     content: (
       <>
         <h2>Bureaux</h2>
         <h2>25 rue de Balzac | Paris</h2>
         <h2>MOA : Vocalcom</h2>
         <h2>Architecte d'Intérieur / OPC : MAD design</h2>
+        <br />
         <h2>
           Mission : Reprise, création et optimisation de plateau de bureau,
           accueil, cafétéria. Gestion des réseaux techniques, téléphonique et

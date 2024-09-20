@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import "./projet.css";
 import projetContent from "../../content/projetContent";
 import projetsNav from "../../content/projetsNav";
@@ -7,21 +7,29 @@ import Logo from "../logo/Logo";
 import ProjetType from "./projetType/ProjetType";
 import { Link } from "react-router-dom";
 
-function Projet({ windowWidth, setSelectedProjet }) {
-  const [navChoice, setNavChoice] = useState(0);
-
+function Projet({ windowWidth, setSelectedProjet, navChoice, setNavChoice }) {
   useEffect(() => {
     // Scroll vers le haut quand le composant est monté
     window.scrollTo(0, 0);
   }, []);
 
-  const handleClick = (index) => {
-    setNavChoice(index);
+  useEffect(() => {
+    filterFocus(navChoice);
+  }, [navChoice]);
+
+  const filterFocus = (index) => {
     let links = document.querySelectorAll("#nav-projet p");
     for (let i = 0; i < links.length; i++) {
       links[i].classList.remove("focus");
     }
     links[index].classList.add("focus");
+  };
+
+  const handleClick = (index) => {
+    localStorage.setItem("indexLocalStorage", JSON.stringify(index));
+    setNavChoice(localStorage.getItem("indexLocalStorage"));
+
+    filterFocus(index);
   };
 
   const filteredProjetContent = projetContent.filter(
@@ -35,7 +43,7 @@ function Projet({ windowWidth, setSelectedProjet }) {
           <div id="nav-projet">
             {projetsNav?.map((projet, index) => (
               <p
-                className={index === 0 ? "focus" : null}
+                className={index === navChoice ? "focus" : null}
                 tabIndex="0"
                 key={index}
                 onClick={() => handleClick(index)}

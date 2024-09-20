@@ -32,15 +32,27 @@
   font-size: 1.2rem;
   width: 25%;
   text-align: left;
+  cursor: pointer;
 }
 
 #section > div > p {
   margin-bottom: 10%;
 }
 
+#section > div > .mission-intro {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 1.3em;
+  text-align: left;
+
+  margin-bottom: 5%;
+}
+
 #section > div > p > li {
-  text-indent: -1.2em; /* Décalage du texte vers la gauche */
+  text-indent: 0em; /* Décalage du texte vers la gauche */
   padding-left: 1em;
+  line-height: 2.2vh;
 }
 
 .focus {
@@ -50,13 +62,13 @@
 
 @media (max-width: 1250px) {
   #section > div > .title-content {
-    margin-left: -50px;
+    margin-left: 0px;
     width: 60vw;
   }
 
   #section > div > .title-content > img {
     width: 10%;
-    margin: 20px 5px 20px 20px;
+    margin: 20px 5px 20px 0px;
   }
 
   #section > div > .title-content > h2 {

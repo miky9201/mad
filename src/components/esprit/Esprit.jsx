@@ -111,6 +111,7 @@ function Esprit({ windowWidth }) {
     <div>
       {windowWidth > 600 ? <Aside></Aside> : <Logo />}
       <h1>ESPRIT |</h1>
+      <h2 className="mission-intro">Ce qui nous inspire</h2>
       <div className="esprit-content">
         {espritContent.map((image, index) => {
           return (

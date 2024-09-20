@@ -22,6 +22,37 @@
   margin: 0% 10% 0% 10%;
 }
 
+/* Animation par défaut pour l'image */
+.animate-image {
+  transition: clip-path 0.5s ease-in-out; /* Durée et effet de transition */
+  clip-path: polygon(
+    0 0,
+    0 0,
+    0 100%,
+    0 100%
+  ); /* Opacité à 1 (image visible) */
+}
+
+/* Classe pour démarrer le fondu */
+.animate-out {
+  clip-path: polygon(
+    100% 0,
+    100% 0,
+    100% 100%,
+    100% 100%
+  ); /* Opacité à 0 pour rendre l'image invisible (fondu sortant) */
+}
+
+/* Classe pour ré-afficher l'image */
+.animate-in {
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0% 100%
+  ); /* Opacité à 1 pour rendre l'image visible (fondu entrant) */
+}
+
 .address-bottom {
   font-family: "Roboto Mono", monospace;
   font-weight: 400;

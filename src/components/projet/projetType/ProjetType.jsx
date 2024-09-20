@@ -13,7 +13,7 @@ function ProjetType({ projetContent, setSelectedProjet, identification }) {
   return (
     <div className="thumb" onClick={handleClick}>
       <img src={projetContent.mainImage} alt={projetContent.name} />
-      <p>{projetContent.title}</p>
+      {projetContent.title}
     </div>
   );
 }

@@ -1,14 +1,31 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./agence.css";
 import Aside from "../aside/Aside";
 import Logo from "../logo/Logo";
-import agenceImg from "../../assets/images/agence-1.jpg";
+import agenceImg1 from "../../assets/images/agence-1.jpg";
+import agenceImg2 from "../../assets/images/agence-2.jpg";
+import agenceImg3 from "../../assets/images/agence-3.jpg";
+import agenceImg4 from "../../assets/images/agence-4.jpg";
 
 function Agence({ windowWidth }) {
+  const [currentImage, setCurrentImage] = useState(0);
+  const [isAnimating, setIsAnimating] = useState(false); // Pour gérer l'animation de fondu
+  const images = [agenceImg2, agenceImg1, agenceImg3, agenceImg4];
+
   useEffect(() => {
     // Scroll vers le haut quand le composant est monté
     window.scrollTo(0, 0);
-  }, []);
+    const intervalId = setInterval(() => {
+      setIsAnimating(true); // Commence l'animation en définissant l'opacité à 0
+      setTimeout(() => {
+        // Après le délai, on passe à l'image suivante
+        setCurrentImage((prevImage) => (prevImage + 1) % images.length);
+        setIsAnimating(false); // Remet l'opacité à 1
+      }, 500); // Durée de l'animation (500ms)
+    }, 6000);
+    return () => clearInterval(intervalId);
+  }, [images.length]);
+
   return (
     <>
       <div>
@@ -33,7 +50,13 @@ function Agence({ windowWidth }) {
             confiance, habitués aux projets rigoureux, pouvant nous accompagner
             dans notre projet commun.
           </p>
-          <img src={agenceImg} alt="bureau-agence" />
+          <img
+            className={`animate-image ${
+              isAnimating ? "animate-out" : "animate-in"
+            }`} // Classe dynamique pour le fondu
+            src={images[currentImage]}
+            alt="bureau-agence"
+          />
         </div>
         <div className="address-bottom">3 Passage Perreur | Paris</div>
       </div>
