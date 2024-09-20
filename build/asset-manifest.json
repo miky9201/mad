@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.755da858.css",
-    "main.js": "/static/js/main.0fe34f7b.js",
+    "main.css": "/static/css/main.55411c0f.css",
+    "main.js": "/static/js/main.2e4023b5.js",
     "static/js/453.91408376.chunk.js": "/static/js/453.91408376.chunk.js",
     "static/media/perruche-1.jpg": "/static/media/perruche-1.b399ae215edc32854f18.jpg",
+    "static/media/agence-4.jpg": "/static/media/agence-4.19d699d883be775ced9f.jpg",
     "static/media/vocalcom-1.jpg": "/static/media/vocalcom-1.35d0b0fabe1d5dab81e0.jpg",
     "static/media/burberry-1.jpg": "/static/media/burberry-1.68f07e5a6cc3b7e1f859.jpg",
     "static/media/gigi-1.jpg": "/static/media/gigi-1.c996c4347d93cb2730b5.jpg",
@@ -16,14 +17,15 @@
     "static/media/montana-1.jpg": "/static/media/montana-1.80282c94c00097dc865f.jpg",
     "static/media/revka-1.jpg": "/static/media/revka-1.57ca06e8b6d28538502b.jpg",
     "static/media/chelles-1.jpg": "/static/media/chelles-1.ee5f15f93346a43b1335.jpg",
+    "static/media/agence-1.jpg": "/static/media/agence-1.aee41b650c23c25467ad.jpg",
     "static/media/phantom-1.jpg": "/static/media/phantom-1.aee41b650c23c25467ad.jpg",
     "static/media/coutume-1.jpg": "/static/media/coutume-1.be166837b89d9682b762.jpg",
-    "static/media/agence-1.jpg": "/static/media/agence-1.498cad96263ca0ccc413.jpg",
     "static/media/alpine-1.jpg": "/static/media/alpine-1.42c96445abf9acc427f3.jpg",
     "static/media/paris-9-1.jpg": "/static/media/paris-9-1.9fa91862c2f095d47735.jpg",
     "static/media/cornichon-1.jpg": "/static/media/cornichon-1.31ec5d4fc682132d7b48.jpg",
     "static/media/botta-1.jpg": "/static/media/botta-1.c8c03563931a214d0db1.jpg",
     "static/media/clutch-1.jpg": "/static/media/clutch-1.4797767b844c6e58a544.jpg",
+    "static/media/agence-2.jpg": "/static/media/agence-2.64bed6f69bb89b9ac738.jpg",
     "static/media/bambini-1.jpg": "/static/media/bambini-1.f5b281f0e544468c8d2d.jpg",
     "static/media/usopf-1.jpg": "/static/media/usopf-1.4891582cfacdd517b2de.jpg",
     "static/media/adidas-1.jpg": "/static/media/adidas-1.77bdb94e1a0aac268b99.jpg",
@@ -37,13 +39,14 @@
     "static/media/mackage-1.jpg": "/static/media/mackage-1.13c29cf61c10375868a4.jpg",
     "static/media/terminal-1.jpg": "/static/media/terminal-1.8e3a83a8b554640e31a8.jpg",
     "static/media/logo.png": "/static/media/logo.a99afc724c87073a70bd.png",
+    "static/media/agence-3.jpg": "/static/media/agence-3.6d4f5594dc6894ab4ad1.jpg",
     "index.html": "/index.html",
-    "main.755da858.css.map": "/static/css/main.755da858.css.map",
-    "main.0fe34f7b.js.map": "/static/js/main.0fe34f7b.js.map",
+    "main.55411c0f.css.map": "/static/css/main.55411c0f.css.map",
+    "main.2e4023b5.js.map": "/static/js/main.2e4023b5.js.map",
     "453.91408376.chunk.js.map": "/static/js/453.91408376.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.755da858.css",
-    "static/js/main.0fe34f7b.js"
+    "static/css/main.55411c0f.css",
+    "static/js/main.2e4023b5.js"
   ]
 }

@@ -10,7 +10,7 @@ import agenceImg4 from "../../assets/images/agence-4.jpg";
 function Agence({ windowWidth }) {
   const [currentImage, setCurrentImage] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false); // Pour gérer l'animation de fondu
-  const images = [agenceImg2, agenceImg1, agenceImg3, agenceImg4];
+  const images = [agenceImg1, agenceImg2, agenceImg3, agenceImg4];
 
   useEffect(() => {
     // Scroll vers le haut quand le composant est monté

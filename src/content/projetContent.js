@@ -739,7 +739,7 @@ const projetContent = [
     name: "usopf",
     title: (
       <p>
-        USOPF Team USA |<br /> Paris
+        JO 2024 Team USA |<br /> Paris
       </p>
     ),
     content: (
@@ -888,7 +888,7 @@ const projetContent = [
     name: "longchamp",
     title: (
       <p>
-        Le Petit Pré |<br /> Paris
+        Hippodrome Longchamp |<br /> Paris
       </p>
     ),
     content: (
