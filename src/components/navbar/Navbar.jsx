@@ -35,12 +35,12 @@ function Navbar() {
               <h1>NOS MISSIONS |</h1>
             </Link>
             <Link to="/esprit">
-              <h1>ESPRIT</h1>
+              <h1>ESPRIT |</h1>
+            </Link>
+            <Link to="/contact">
+              <h1>CONTACT</h1>
             </Link>
             {/* <Link to="/">
-              <h1>CONTACT |</h1>{" "}
-            </Link>
-            <Link to="/">
               <h1>NOUS REJOINDRE</h1>{" "}
             </Link> */}
           </div>

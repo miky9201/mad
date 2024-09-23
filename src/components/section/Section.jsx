@@ -6,6 +6,7 @@ import Missions from "../missions/Missions.jsx";
 import Esprit from "../esprit/Esprit.jsx";
 import Projet from "../projet/Projet.jsx";
 import ProjetModal from "../projetModal/ProjetModal.jsx";
+import Contact from "../contact/Contact.jsx";
 
 import { Routes, Route, useLocation } from "react-router-dom";
 
@@ -63,6 +64,10 @@ function Section() {
               selectedProjet={selectedProjet}
             />
           }
+        />
+        <Route
+          path="/contact"
+          element={<Contact windowWidth={windowWidth} />}
         />
       </Routes>
     </section>
