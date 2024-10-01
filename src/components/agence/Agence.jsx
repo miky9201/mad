@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./agence.css";
 import Aside from "../aside/Aside";
 import Logo from "../logo/Logo";
+import { Helmet } from "react-helmet";
 import agenceImg1 from "../../assets/images/agence-1.jpg";
 import agenceImg2 from "../../assets/images/agence-2.jpg";
 import agenceImg3 from "../../assets/images/agence-3.jpg";
@@ -28,6 +29,18 @@ function Agence({ windowWidth }) {
 
   return (
     <>
+      <Helmet>
+        <title>Agence - MAD Design Paris</title>
+        <meta
+          name="description"
+          content="Découvrez toutes les informations nécessaires sur notre Agence MAD Design Paris"
+        />
+        <meta property="og:title" content="Agence - MAD Design Paris" />
+        <meta
+          property="og:description"
+          content="Découvrez toutes les informations nécessaires sur notre Agence MAD Design Paris"
+        />
+      </Helmet>
       <div>
         {windowWidth > 600 ? <Aside></Aside> : <Logo />}
         <h1>AGENCE |</h1>

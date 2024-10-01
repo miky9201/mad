@@ -3,7 +3,8 @@ import "./missions.css";
 import missionContent from "../../content/missionContent";
 import Aside from "../aside/Aside";
 import MissionType from "./missionType/MissionType";
-// import FixedDiv from "../fixedDiv/FixedDiv";
+import { Helmet } from "react-helmet";
+
 import Logo from "../logo/Logo";
 
 function Missions({ windowWidth }) {
@@ -13,6 +14,18 @@ function Missions({ windowWidth }) {
   }, []);
   return (
     <div>
+      <Helmet>
+        <title>Missions - MAD Design Paris</title>
+        <meta
+          name="description"
+          content="Découvrez les différentes missions réalisables par notre Agence MAD Design Paris"
+        />
+        <meta property="og:title" content="Missions - MAD Design Paris" />
+        <meta
+          property="og:description"
+          content="Découvrez les différentes missions réalisables par notre Agence MAD Design Paris"
+        />
+      </Helmet>
       {windowWidth > 600 ? <Aside></Aside> : <Logo />}
 
       {/* <FixedDiv height={100} left={8} top={450} speed={0.2} />

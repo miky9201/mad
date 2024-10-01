@@ -5,11 +5,11 @@ import Logo from "../../components/logo/Logo";
 import { IconContext } from "react-icons";
 import { IoIosArrowRoundBack } from "react-icons/io";
 import { Link } from "react-router-dom";
-// import { useParams } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function ProjetModal({ windowWidth, selectedProjet }) {
-  // const { projectName } = useParams();
-  console.log(selectedProjet);
+  const tutu = "Tutu";
+
   useEffect(() => {
     // Scroll vers le haut quand le composant est monté
     window.scrollTo(0, 0);
@@ -17,6 +17,13 @@ function ProjetModal({ windowWidth, selectedProjet }) {
 
   return (
     <div>
+      <Helmet>
+        <meta property="og:title" content={`${tutu} - MAD Design Paris`} />
+        <meta
+          property="og:description"
+          content={`Découvrez notre projet ${tutu} réalisé par MAD Design Paris`}
+        />
+      </Helmet>
       {windowWidth > 600 ? (
         <Aside>
           <Link to="/projet" style={{ textDecoration: "none", color: "black" }}>

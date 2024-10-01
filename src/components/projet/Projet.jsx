@@ -6,6 +6,7 @@ import Aside from "../aside/Aside";
 import Logo from "../logo/Logo";
 import ProjetType from "./projetType/ProjetType";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function Projet({ windowWidth, setSelectedProjet, navChoice, setNavChoice }) {
   useEffect(() => {
@@ -38,6 +39,18 @@ function Projet({ windowWidth, setSelectedProjet, navChoice, setNavChoice }) {
 
   return (
     <div>
+      <Helmet>
+        <title>Projets - MAD Design Paris</title>
+        <meta
+          name="description"
+          content="Découvrez les différents projets réalisés par notre Agence MAD Design Paris"
+        />
+        <meta property="og:title" content="Projets - MAD Design Paris" />
+        <meta
+          property="og:description"
+          content="Découvrez les différents projets réalisés par notre Agence MAD Design Paris"
+        />
+      </Helmet>
       {windowWidth > 600 ? (
         <Aside>
           <div id="nav-projet">

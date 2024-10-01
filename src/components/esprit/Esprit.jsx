@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./esprit.css";
 import Aside from "../aside/Aside";
 import Logo from "../logo/Logo";
+import { Helmet } from "react-helmet";
 
 function Esprit({ windowWidth }) {
   useEffect(() => {
@@ -109,6 +110,18 @@ function Esprit({ windowWidth }) {
   ];
   return (
     <div>
+      <Helmet>
+        <title>Esprit - MAD Design Paris</title>
+        <meta
+          name="description"
+          content="Découvrez les inspirations artistiques de notre Agence MAD Design Paris"
+        />
+        <meta property="og:title" content="Esprit - MAD Design Paris" />
+        <meta
+          property="og:description"
+          content="Découvrez les inspirations artistiques de notre Agence MAD Design Paris"
+        />
+      </Helmet>
       {windowWidth > 600 ? <Aside></Aside> : <Logo />}
       <h1>ESPRIT |</h1>
       <h2 className="mission-intro">Ce qui nous inspire</h2>

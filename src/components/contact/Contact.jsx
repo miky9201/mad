@@ -3,6 +3,7 @@ import "./contact.css";
 import Aside from "../aside/Aside";
 import Logo from "../logo/Logo";
 import ContactForm from "./contactForm/ContactForm";
+import { Helmet } from "react-helmet";
 
 function Contact({ windowWidth }) {
   useEffect(() => {
@@ -12,6 +13,18 @@ function Contact({ windowWidth }) {
 
   return (
     <>
+      <Helmet>
+        <title>Contact - MAD Design Paris</title>
+        <meta
+          name="description"
+          content="Retrouvez notre formulaire de contact si vous souhaitez discuter avec notre Agence MAD Design Paris"
+        />
+        <meta property="og:title" content="Contact - MAD Design Paris" />
+        <meta
+          property="og:description"
+          content="Retrouvez notre formulaire de contact si vous souhaitez discuter avec notre Agence MAD Design Paris"
+        />
+      </Helmet>
       <div>
         {windowWidth > 600 ? <Aside></Aside> : <Logo />}
         <h1>CONTACT |</h1>
