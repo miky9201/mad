@@ -36,8 +36,10 @@ function Contact({ windowWidth }) {
             par 6 architectes d’intérieur & chargés d’affaires. <br />
             <br />
             <br />
-            MAD Design | <br />3 passage perreur 75020 PARIS | <br />
-            T. +33 1 41 66 64 00
+            MAD Design | <br />
+            3 Passage Perreur 75020 Paris | <br />
+            T. +33 1 41 66 64 00 | <br />
+            contact@mad-design.fr
           </p>
           <ContactForm />
         </div>

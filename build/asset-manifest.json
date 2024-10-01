@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.55411c0f.css",
-    "main.js": "/static/js/main.2e4023b5.js",
-    "static/js/453.91408376.chunk.js": "/static/js/453.91408376.chunk.js",
+    "main.css": "/static/css/main.1516dff7.css",
+    "main.js": "/static/js/main.04e303f0.js",
+    "static/js/453.c1d79fb7.chunk.js": "/static/js/453.c1d79fb7.chunk.js",
     "static/media/perruche-1.jpg": "/static/media/perruche-1.b399ae215edc32854f18.jpg",
     "static/media/agence-4.jpg": "/static/media/agence-4.19d699d883be775ced9f.jpg",
     "static/media/vocalcom-1.jpg": "/static/media/vocalcom-1.35d0b0fabe1d5dab81e0.jpg",
@@ -41,12 +41,12 @@
     "static/media/logo.png": "/static/media/logo.a99afc724c87073a70bd.png",
     "static/media/agence-3.jpg": "/static/media/agence-3.6d4f5594dc6894ab4ad1.jpg",
     "index.html": "/index.html",
-    "main.55411c0f.css.map": "/static/css/main.55411c0f.css.map",
-    "main.2e4023b5.js.map": "/static/js/main.2e4023b5.js.map",
-    "453.91408376.chunk.js.map": "/static/js/453.91408376.chunk.js.map"
+    "main.1516dff7.css.map": "/static/css/main.1516dff7.css.map",
+    "main.04e303f0.js.map": "/static/js/main.04e303f0.js.map",
+    "453.c1d79fb7.chunk.js.map": "/static/js/453.c1d79fb7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55411c0f.css",
-    "static/js/main.2e4023b5.js"
+    "static/css/main.1516dff7.css",
+    "static/js/main.04e303f0.js"
   ]
 }
