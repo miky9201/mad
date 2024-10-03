@@ -15,6 +15,10 @@
   line-height: 1.3em;
   text-align: justify;
   width: 70%;
+  -webkit-touch-callout: none; /* Désactiver le menu contextuel pour les numéros sur iOS */
+  -webkit-user-select: none; /* Empêcher la sélection automatique sur les liens numériques/e-mails */
+  -webkit-text-decoration: none; /* Supprime le soulignement automatique */
+  text-decoration: none; /* Supprime le soulignement dans tous les navigateurs */
 }
 
 .address-bottom {

@@ -24,6 +24,8 @@ function Contact({ windowWidth }) {
           property="og:description"
           content="Retrouvez notre formulaire de contact si vous souhaitez discuter avec notre Agence MAD Design Paris"
         />
+        <meta name="format-detection" content="telephone=no" />
+
       </Helmet>
       <div>
         {windowWidth > 600 ? <Aside></Aside> : <Logo />}
