@@ -25,7 +25,7 @@ function Socials({ colorType, isAside }) {
             <CiMail />
           </a>
           <a
-            href="https://www.linkedin.com/in/mad-design-sandra-cannet-b29671308/?originalSubdomain=fr"
+            href="http://linkedin.com/in/mad-design-b29671308"
             target="_blank"
             rel="noreferrer"
           >
