@@ -665,15 +665,7 @@ const projetContent = [
       {
         name: "terminal-6",
         url: "../images/terminal/terminal-6.jpg",
-      },
-      {
-        name: "phantom-7",
-        url: "../images/phantom/phantom-7.jpg",
-      },
-      {
-        name: "phantom-8",
-        url: "../images/phantom/phantom-8.jpg",
-      },
+      }
     ],
   },
   {
