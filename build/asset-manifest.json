@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1516dff7.css",
-    "main.js": "/static/js/main.a827d3d9.js",
+    "main.css": "/static/css/main.3a73ea48.css",
+    "main.js": "/static/js/main.d0496300.js",
     "static/js/453.c1d79fb7.chunk.js": "/static/js/453.c1d79fb7.chunk.js",
     "static/media/perruche-1.jpg": "/static/media/perruche-1.b399ae215edc32854f18.jpg",
     "static/media/agence-4.jpg": "/static/media/agence-4.19d699d883be775ced9f.jpg",
@@ -41,12 +41,12 @@
     "static/media/logo.png": "/static/media/logo.a99afc724c87073a70bd.png",
     "static/media/agence-3.jpg": "/static/media/agence-3.6d4f5594dc6894ab4ad1.jpg",
     "index.html": "/index.html",
-    "main.1516dff7.css.map": "/static/css/main.1516dff7.css.map",
-    "main.a827d3d9.js.map": "/static/js/main.a827d3d9.js.map",
+    "main.3a73ea48.css.map": "/static/css/main.3a73ea48.css.map",
+    "main.d0496300.js.map": "/static/js/main.d0496300.js.map",
     "453.c1d79fb7.chunk.js.map": "/static/js/453.c1d79fb7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1516dff7.css",
-    "static/js/main.a827d3d9.js"
+    "static/css/main.3a73ea48.css",
+    "static/js/main.d0496300.js"
   ]
 }
