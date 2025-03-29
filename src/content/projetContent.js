@@ -385,6 +385,7 @@ const projetContent = [
         <h2>51 rue de Grenelle | Paris</h2>
         <h2>MO : Cody's</h2>
         <h2>Architecte d’intérieur / MOE / OPC : MAD design </h2>
+        <br />
         <h2>
           Mission : Conception d’un Coffee Shop avec vente à emporter
           uniquement. Suivi des travaux en tout corps d’état.
@@ -661,7 +662,7 @@ const projetContent = [
       {
         name: "terminal-6",
         url: "../images/terminal/terminal-6.jpg",
-      }
+      },
     ],
   },
   {
