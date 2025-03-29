@@ -4,6 +4,7 @@ import Navbar from "../navbar/Navbar";
 import Agence from "../agence/Agence.jsx";
 import Missions from "../missions/Missions.jsx";
 import Esprit from "../esprit/Esprit.jsx";
+import Presse from "../presse/Presse.jsx";
 import Projet from "../projet/Projet.jsx";
 import ProjetModal from "../projetModal/ProjetModal.jsx";
 import Contact from "../contact/Contact.jsx";
@@ -45,6 +46,7 @@ function Section() {
           element={<Missions windowWidth={windowWidth} />}
         />
         <Route path="/esprit" element={<Esprit windowWidth={windowWidth} />} />
+        <Route path="/presse" element={<Presse windowWidth={windowWidth} />} />
         <Route
           path="/projet"
           element={
