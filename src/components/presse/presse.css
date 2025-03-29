@@ -1,0 +1,41 @@
+.esprit-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center; /* Centre la grille */
+  width: 94%;
+}
+
+.esprit-content div {
+  aspect-ratio: 144/198;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 1200px) {
+  .esprit-content {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    width: 94%;
+    gap: 0% 4%;
+    margin-bottom: 45%;
+  }
+
+  .esprit-content div {
+    aspect-ratio: 144/198;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .esprit-content {
+    width: 100%;
+    padding-right: 5%;
+  }
+}

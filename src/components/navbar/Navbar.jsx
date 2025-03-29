@@ -37,6 +37,9 @@ function Navbar() {
             <Link to="/esprit">
               <h1>ESPRIT |</h1>
             </Link>
+            <Link to="/presse">
+              <h1>PRESSE |</h1>
+            </Link>
             <Link to="/contact">
               <h1>CONTACT</h1>
             </Link>
