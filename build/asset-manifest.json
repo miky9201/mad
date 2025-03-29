@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a73ea48.css",
-    "main.js": "/static/js/main.d0496300.js",
+    "main.css": "/static/css/main.6486ca0c.css",
+    "main.js": "/static/js/main.3abcd564.js",
     "static/js/453.c1d79fb7.chunk.js": "/static/js/453.c1d79fb7.chunk.js",
     "static/media/perruche-1.jpg": "/static/media/perruche-1.b399ae215edc32854f18.jpg",
     "static/media/agence-4.jpg": "/static/media/agence-4.19d699d883be775ced9f.jpg",
@@ -21,12 +21,15 @@
     "static/media/phantom-1.jpg": "/static/media/phantom-1.aee41b650c23c25467ad.jpg",
     "static/media/coutume-1.jpg": "/static/media/coutume-1.be166837b89d9682b762.jpg",
     "static/media/alpine-1.jpg": "/static/media/alpine-1.42c96445abf9acc427f3.jpg",
+    "static/media/club24-1.jpg": "/static/media/club24-1.dfd38e2620c25b3f29f3.jpg",
     "static/media/paris-9-1.jpg": "/static/media/paris-9-1.9fa91862c2f095d47735.jpg",
     "static/media/cornichon-1.jpg": "/static/media/cornichon-1.31ec5d4fc682132d7b48.jpg",
     "static/media/botta-1.jpg": "/static/media/botta-1.c8c03563931a214d0db1.jpg",
     "static/media/clutch-1.jpg": "/static/media/clutch-1.4797767b844c6e58a544.jpg",
     "static/media/agence-2.jpg": "/static/media/agence-2.64bed6f69bb89b9ac738.jpg",
+    "static/media/codys-1.jpg": "/static/media/codys-1.bb1f2c160c171be62324.jpg",
     "static/media/bambini-1.jpg": "/static/media/bambini-1.f5b281f0e544468c8d2d.jpg",
+    "static/media/holidermie-1.jpg": "/static/media/holidermie-1.36dfd07629c00f77adfa.jpg",
     "static/media/usopf-1.jpg": "/static/media/usopf-1.4891582cfacdd517b2de.jpg",
     "static/media/adidas-1.jpg": "/static/media/adidas-1.77bdb94e1a0aac268b99.jpg",
     "static/media/lepic-1.jpg": "/static/media/lepic-1.b41c66d3a0e883f8448a.jpg",
@@ -36,17 +39,18 @@
     "static/media/vaugirard-1.jpg": "/static/media/vaugirard-1.41e64d0e54ff51437438.jpg",
     "static/media/cadet-1.jpg": "/static/media/cadet-1.a5182eccf954b7c126bc.jpg",
     "static/media/logo-white.png": "/static/media/logo-white.04774dda0557227ea693.png",
+    "static/media/hotel7-1.jpg": "/static/media/hotel7-1.8b4009053335c54c4e89.jpg",
     "static/media/mackage-1.jpg": "/static/media/mackage-1.13c29cf61c10375868a4.jpg",
     "static/media/terminal-1.jpg": "/static/media/terminal-1.8e3a83a8b554640e31a8.jpg",
     "static/media/logo.png": "/static/media/logo.a99afc724c87073a70bd.png",
     "static/media/agence-3.jpg": "/static/media/agence-3.6d4f5594dc6894ab4ad1.jpg",
     "index.html": "/index.html",
-    "main.3a73ea48.css.map": "/static/css/main.3a73ea48.css.map",
-    "main.d0496300.js.map": "/static/js/main.d0496300.js.map",
+    "main.6486ca0c.css.map": "/static/css/main.6486ca0c.css.map",
+    "main.3abcd564.js.map": "/static/js/main.3abcd564.js.map",
     "453.c1d79fb7.chunk.js.map": "/static/js/453.c1d79fb7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a73ea48.css",
-    "static/js/main.d0496300.js"
+    "static/css/main.6486ca0c.css",
+    "static/js/main.3abcd564.js"
   ]
 }
